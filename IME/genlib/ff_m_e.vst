@@ -1,0 +1,46 @@
+entity ff_m_e is
+   port (
+      a    : in      bit;
+      ck_m : in      bit;
+      ck_e : in      bit;
+      q    : out     bit;
+      vdd  : in      bit;
+      vss  : in      bit
+ );
+end ff_m_e;
+
+architecture structural of ff_m_e is
+Component latch_d
+   port (
+      a   : in      bit;
+      ck  : in      bit;
+      q   : out     bit;
+      vdd : in      bit;
+      vss : in      bit
+ );
+end component;
+
+signal q_m  : bit;
+
+begin
+
+la_m : latch_d
+   port map (
+      a   => a,
+      ck  => ck_m,
+      q   => q_m,
+      vdd => vdd,
+      vss => vss
+   );
+
+la_e : latch_d
+   port map (
+      a   => q_m,
+      ck  => ck_e,
+      q   => q,
+      vdd => vdd,
+      vss => vss
+   );
+
+
+end structural;

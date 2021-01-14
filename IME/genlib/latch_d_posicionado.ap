@@ -1,0 +1,9 @@
+V ALLIANCE : 6
+H latch_d_posicionado,P,19/11/2020,100
+A 0,0,9000,5000
+I 7000,0,rowend_x0,rowendx0_2,SYM_Y
+I 4500,0,tie_x0,tiex0_1,SYM_Y
+I 7500,0,inv_x1,inv_1,SYM_Y
+I 5500,0,inv_x1,inv_2,SYM_Y
+I 0,0,mx2_x2,mux,SYM_Y
+EOF

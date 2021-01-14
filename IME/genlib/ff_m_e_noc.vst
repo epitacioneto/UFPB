@@ -1,0 +1,58 @@
+entity ff_m_e_noc is
+   port (
+      a     : in      bit;
+      ck    : in      bit;
+      q     : out     bit;
+      phi_1 : out     bit;
+      phi_2 : out     bit;
+      vdd   : in      bit;
+      vss   : in      bit
+ );
+end ff_m_e_noc;
+
+architecture structural of ff_m_e_noc is
+Component noc
+   port (
+      ck  : in      bit;
+      i5  : out     bit;
+      i10 : out     bit;
+      vdd : in      bit;
+      vss : in      bit
+ );
+end component;
+
+Component ff_m_e
+   port (
+      a    : in      bit;
+      ck_m : in      bit;
+      ck_e : in      bit;
+      q    : out     bit;
+      vdd  : in      bit;
+      vss  : in      bit
+ );
+end component;
+
+
+begin
+
+nock : noc
+   port map (
+      ck  => ck,
+      i5  => phi_1,
+      i10 => phi_2,
+      vdd => vdd,
+      vss => vss
+   );
+
+ff : ff_m_e
+   port map (
+      a    => a,
+      ck_m => phi_2,
+      ck_e => phi_1,
+      q    => q,
+      vdd  => vdd,
+      vss  => vss
+   );
+
+
+end structural;

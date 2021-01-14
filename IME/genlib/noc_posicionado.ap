@@ -1,0 +1,19 @@
+V ALLIANCE : 6
+H noc_posicionado,P,17/11/2020,100
+A 0,0,10500,10000
+I 6500,0,rowend_x0,rowendx0_4,SYM_Y
+I 4000,0,tie_x0,tiex0_3,SYM_Y
+I 1500,5000,tie_x0,tiex0_2,NOSYM
+I 1500,0,tie_x0,tiex0_1,SYM_Y
+I 9000,5000,inv_x1,inv0,NOSYM
+I 7500,5000,inv_x1,inv4,NOSYM
+I 5500,5000,no2_x1,nor1,NOSYM
+I 4000,5000,inv_x1,inv3,NOSYM
+I 2500,5000,inv_x1,inv1,NOSYM
+I 0,5000,inv_x1,inv2,NOSYM
+I 8500,0,no2_x1,nor2,SYM_Y
+I 7000,0,inv_x1,inv8,SYM_Y
+I 5000,0,inv_x1,inv9,SYM_Y
+I 2500,0,inv_x1,inv7,SYM_Y
+I 0,0,inv_x1,inv6,SYM_Y
+EOF

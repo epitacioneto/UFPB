@@ -1,0 +1,28 @@
+V ALLIANCE : 6
+H ff_m_e_noc_posicionado,P,19/11/2020,100
+A 0,0,13000,15000
+I 9500,10000,rowend_x0,rowendx0_7,SYM_Y
+I 7000,10000,tie_x0,tiex0_6,SYM_Y
+I 7000,0,tie_x0,tiex0_5,SYM_Y
+I 4500,10000,tie_x0,tiex0_4,SYM_Y
+I 4500,5000,tie_x0,tiex0_3,NOSYM
+I 4500,0,tie_x0,tiex0_2,SYM_Y
+I 2000,10000,tie_x0,tiex0_1,SYM_Y
+I 11500,10000,inv_x1,nock.inv8,SYM_Y
+I 10000,10000,inv_x1,nock.inv0,SYM_Y
+I 8000,10000,inv_x1,nock.inv9,SYM_Y
+I 5500,10000,inv_x1,nock.inv6,SYM_Y
+I 3000,10000,inv_x1,nock.inv7,SYM_Y
+I 0,10000,no2_x1,nock.nor2,SYM_Y
+I 11500,5000,inv_x1,ff.la_e.inv_2,NOSYM
+I 10000,5000,inv_x1,nock.inv2,NOSYM
+I 8500,5000,inv_x1,ff.la_e.inv_1,NOSYM
+I 7000,5000,inv_x1,nock.inv3,NOSYM
+I 5500,5000,inv_x1,nock.inv4,NOSYM
+I 0,5000,mx2_x2,ff.la_e.mux,NOSYM
+I 11000,0,no2_x1,nock.nor1,SYM_Y
+I 9500,0,inv_x1,nock.inv1,SYM_Y
+I 8000,0,inv_x1,ff.la_m.inv_1,SYM_Y
+I 5500,0,inv_x1,ff.la_m.inv_2,SYM_Y
+I 0,0,mx2_x2,ff.la_m.mux,SYM_Y
+EOF

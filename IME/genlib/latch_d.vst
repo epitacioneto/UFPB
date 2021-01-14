@@ -1,0 +1,133 @@
+entity latch_d is
+   port (
+      a   : in      bit;
+      ck  : in      bit;
+      q   : out     bit;
+      vdd : in      bit;
+      vss : in      bit
+ );
+end latch_d;
+
+architecture structural of latch_d is
+Component inv_x1
+   generic (
+      CONSTANT area        : natural := 750;
+      CONSTANT cin_i       : natural := 8;
+      CONSTANT rdown_i_nq  : natural := 3640;
+      CONSTANT rup_i_nq    : natural := 3720;
+      CONSTANT tphl_i_nq   : natural := 101;
+      CONSTANT tplh_i_nq   : natural := 139;
+      CONSTANT transistors : natural := 2
+   );
+   port (
+      i   : in      bit;
+      nq  : out     bit;
+      vdd : in      bit;
+      vss : in      bit
+ );
+end component;
+
+Component mx2_x2
+   generic (
+      CONSTANT area        : natural := 2250;
+      CONSTANT cin_cmd     : natural := 17;
+      CONSTANT cin_i0      : natural := 8;
+      CONSTANT cin_i1      : natural := 9;
+      CONSTANT rdown_cmd_q : natural := 1620;
+      CONSTANT rdown_i0_q  : natural := 1620;
+      CONSTANT rdown_i1_q  : natural := 1620;
+      CONSTANT rup_cmd_q   : natural := 1790;
+      CONSTANT rup_i0_q    : natural := 1790;
+      CONSTANT rup_i1_q    : natural := 1790;
+      CONSTANT tphh_i0_q   : natural := 451;
+      CONSTANT tphh_i1_q   : natural := 451;
+      CONSTANT tpll_i0_q   : natural := 469;
+      CONSTANT tpll_i1_q   : natural := 469;
+      CONSTANT tphh_cmd_q  : natural := 484;
+      CONSTANT tphl_cmd_q  : natural := 485;
+      CONSTANT tpll_cmd_q  : natural := 522;
+      CONSTANT tplh_cmd_q  : natural := 534;
+      CONSTANT transistors : natural := 12
+   );
+   port (
+      cmd : in      bit;
+      i0  : in      bit;
+      i1  : in      bit;
+      q   : out     bit;
+      vdd : in      bit;
+      vss : in      bit
+ );
+end component;
+
+signal q_b : bit;
+signal b   : bit;
+
+begin
+
+inv_1 : inv_x1
+   Generic Map (
+      area        => 750,
+      cin_i       => 8,
+      rdown_i_nq  => 3640,
+      rup_i_nq    => 3720,
+      tphl_i_nq   => 101,
+      tplh_i_nq   => 139,
+      transistors => 2
+   )
+   port map (
+      i   => q_b,
+      nq  => b,
+      vdd => vdd,
+      vss => vss
+   );
+
+inv_2 : inv_x1
+   Generic Map (
+      area        => 750,
+      cin_i       => 8,
+      rdown_i_nq  => 3640,
+      rup_i_nq    => 3720,
+      tphl_i_nq   => 101,
+      tplh_i_nq   => 139,
+      transistors => 2
+   )
+   port map (
+      i   => q,
+      nq  => q_b,
+      vdd => vdd,
+      vss => vss
+   );
+
+mux : mx2_x2
+   Generic Map (
+      area        => 2250,
+      cin_cmd     => 17,
+      cin_i0      => 8,
+      cin_i1      => 9,
+      rdown_cmd_q => 1620,
+      rdown_i0_q  => 1620,
+      rdown_i1_q  => 1620,
+      rup_cmd_q   => 1790,
+      rup_i0_q    => 1790,
+      rup_i1_q    => 1790,
+      tphh_i0_q   => 451,
+      tphh_i1_q   => 451,
+      tpll_i0_q   => 469,
+      tpll_i1_q   => 469,
+      tphh_cmd_q  => 484,
+      tphl_cmd_q  => 485,
+      tpll_cmd_q  => 522,
+      tplh_cmd_q  => 534,
+      transistors => 12
+   )
+   port map (
+      cmd => ck,
+      i0  => b,
+      i1  => a,
+      q   => q,
+      vdd => vdd,
+      vss => vss
+   );
+
+
+end structural;

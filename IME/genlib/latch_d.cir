@@ -1,0 +1,20 @@
+
+.include latch_d_roteado.spi
+
+* INTERF a ck q vdd vss
+
+X1 20 12 13 40 30 latch_D_roteado
+
+V1 12 30 pulse(0V 1.8V 7n 1p 1p 5n 10n)
+V2 20 30 pulse(0V 1.8V 0 1p 1p 12n 24n)
+
+*R1 20 0 10Meg 
+
+Vdd 40 0 1.8V
+Vss 30 0 0V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.01ns 96ns
+.end

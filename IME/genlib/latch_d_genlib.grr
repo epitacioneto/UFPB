@@ -1,0 +1,2 @@
+rm -f latch_d_genlib latch_d_genlib.o latch_d_genlib.exe
+make: *** No rule to make target `latch_d_genlib.c', needed by `latch_d_genlib.o'.  Stop.

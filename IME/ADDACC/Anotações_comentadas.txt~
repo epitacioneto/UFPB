@@ -1,0 +1,175 @@
+Passos para concepção estruturada de um chip: ADDAC com biblioteca standard cell e ferramentas do pacote ALLIANCE acadêmico elaborado pela universidade Paris VI
+
+cd  ~/Desktop/ADAC_NOVO
+\rm *.vbe *.vst *.ap *.al *.pat *.xsc
+ gedit adac_sem_atraso.c
+ alliance-genpat  adac_sem_atraso 
+ gedit adac_sem_atraso.pat
+ gedit adac.vhd
+ man vasy 
+ vasy -a -I vhd adac adac_vasy //tradutor de liguagem 
+ gedit adac_vasy.vbe  //vhdl comportamental em nível RTL - comparem com adac.vhd em vhdl funcional
+ asimut -b adac_vasy adac_sem_atraso  adac_vasy_res
+//\\ façam man asimut para entender como funciona o simulador lógico asimut para modelo comportamental (equações booleanas em nível RTL) 
+//\\ e estrutural (netlist equivalente ao esquema de conexão de portas lógicas cujo comportamento está na biblioteca standard cells sxlib)
+ xpat -l adac_vasy_res&  //visualização das entradas e saídas em formato de pulsos digitais
+ gedit adac_vasy_res.pat & //visualização das entradas e saídas em formato de tabela (golden vectors com as saídas checadas ok com zero erros
+  
+ man boom 		//otimizador booleano ao nível RTL
+ boom -l 3 -d 50% -i 100 adac_vasy adac_vasy_boom_3_50_100
+ ls -lrt
+ gedit adac_vasy_boom_3_50_100.vbe & // compare com adac_vasy - notar-se-á grande enxugamento das equações booleanas geradas inicialmente por VASY
+ asimut -b adac_vasy_boom_3_50_100 adac_sem_atraso adac_vasy_boom_3_50_100_res
+	// após aplicação de otimizações no código RTL a simulação demonstra que o modelo atual
+	// continua respondendo sem erros com relação ao Golden Model
+ ls -lrt
+ 									
+man proof //utilitário que faz a prova formal entre duas descrições comportamentais em VHDL do 		
+			//alliance (.vbe suportado pelo simulador comportamental asimut e pelas ferramentas boom e boog)
+proof -a -d adac_vasy adac_vasy_boom_3_50_100 //Se resultado ok é mais uma prova formal que o boom não alterou logicamente a descrição RTL
+	// originada da captura em alto nível (vasy), simulada  e validada pelo asimut com o Golden Model (...sem_atraso.pat gerando ...res.pat sem erros)
+	
+//Até aqui foi montada uma descrição comportamental com otimização booleana do somador/subtrator/copiador/complementador
+//Nas partes seguintes vamos sintetizar um circuito lógico a partir dessa descrição lógica otimizada com mapeamento automático sobre a biblioteca sxlib
+man boog //avaliem as possibilidades de otimização na síntese do circuito a ser feita
+ export MBK_OUT_LO=vst
+ boog adac_vasy_boom_3_50_100 adac_vasy_boom_3_50_100_boog_2
+ gedit adac_vasy_boom_3_50_100_boog_2.vst // redescubram a sintaxe da descrição estrutural em vhdl e identifiquem as declarações dos componentes e suas interconexões
+ xsch -l adac_vasy_boom_3_50_100_boog_2& // se clicarem nos componentes com edit identify vão obter o nome dos módulos que constam de sxlib
+		//recomenda-se inspecionar no diretório .../cells/sxlib o conteúdo de "nome do modulo".vbe vão encontrar generics com dados relativos à
+		//especificação física e de desempenho esperado, além do comportamento descrito em vhdl RTL
+//CAMINHO VERMELHO -> MAIS LONGO ENTRE A ENTRADA E A SAÍDA DO CIRCUITO
+ls -lrt
+ asimut -zd adac_vasy_boom_3_50_100_boog_2 adac_sem_atraso adac_vasy_boom_3_50_100_boog_2_res //simulação da net list se fosse zero delay (-zd)
+ asimut  adac_vasy_boom_3_50_100_boog_2 adac_sem_atraso adac_vasy_boom_3_50_100_boog_2_res // gerou --->ERROR na tela aparecem os primeiros antes da
+//interrupção da simulação ERRO CORRETO, POIS ESTAMOS COLOCANDO UM ARQUIVO SEM ATRASO EM UMA SIMULAÇAO COM ATRASO, PRECISAMOS FAZER UM MODELO COM ATRASO AGORA
+
+######################### paramos aqui ##########################
+
+ gedit adac_com_atraso.c		//REPAREM QUE FOI CONSTRUÍDO EDITANDO O SEM ATRASO E ACRESCENTANDO O ATRASO ENTRE AFFECT NA ENTRADA E AFFECT NA SAÍDA,
+// OU SEJA NUM VETOR SE MODIFICA SÓ A ENTRADA E NO OUTRO SÓ A SAÍDA APÓS UM ATRASO QUE VAMOS AUMENTANDO ATÉ VENCER OS AFERIDOS NOS GENÉRICOS DA BIBLIOTECA
+ 
+alliance-genpat adac_com_atraso  // gerou  adac_com_atraso_13000.pat
+
+gedit adac_com_atraso_13000.pat& // reparem que dobramos o número de vetores de teste
+
+asimut adac_vasy_boom_3_50_100_boog_2 adac_com_atraso_13000 adac_vasy_boom_3_50_100_boog_2_13000_res
+
+//\\Poderíamos ir mudando o atraso desde 5000 mas neste caso DEU CERTO APENAS COM 13000
+//\\ podem editar os vossos e tentem obter zero erro com meenos atraso
+
+//\\LOON OTIMIZA os caminhos dríticos (vermelhos), PORÉM COMO ESTAMOS TRATANDO DE UM CIRCUITO MUITO PEQUENO, ESSE PROCESSO PODE PIORAR O DESEMPENHO
+ man loon
+ loon -m 4  adac_vasy_boom_3_50_100_boog_2 adac_vasy_boom_3_50_100_boog_2_loon_4
+ xsch -l adac_vasy_boom_3_50_100_boog_2_loon_4&
+
+//\\COMPARAR O XSCH, COMPARAR O DE ANTES E DE DEPOIS da linha  38 E 62 
+
+ asimut  adac_vasy_boom_3_50_100_boog_2_loon_4 adac_com_atraso_13000 adac_vasy_boom_3_50_100_boog_2_loon_4_13000_res
+ // Verificado com zero erro. caso aconteça erro, editar o arquivo com atraso e aumentá-lo - nesse caso teria havido piora após o loon !
+
+ls -lrt
+ 
+ man ocp 
+//\\DEFINIÇÃO DAS CONEXÕES PARA OS conectores VDD E VSS JÁ ESTÃO POR DEFAULT NAS LATERAIS
+//\\POSICIONAMENTO dos conectores ao redor do núcleo (core) com vistas a estarem "em frente" aos PADs do CHIP finalizado 
+//\\ POSICIONAMENTO das standard cells do núcleo (core) para seu ROTEAMENTO
+
+ gedit adac.ioc //arquivo texto com a ordem dos conectores que serão colocados em cima e em baixo no nosso core(núcleo do chip) depois de posicionado
+
+//Façam man OCP para ver como inserem o arquivo .ioc 
+
+
+cp adac_vasy_boom_3_50_100_boog_2_loon_4.vst adac_core.vst
+
+ alliance-ocp -rows 6 -ring -ioc adac adac_core adac_core_posicionado 
+
+ graal -l 'adac_core_posicionado'& 
+
+ //identifiquem no layout posicionado os pontos azuis no topo e em baixo para ler as entradas e saídas do núcleo
+
+man nero 
+nero -p adac_core_posicionado adac_core adac_core_roteadonero -p adac_core_posicionado adac_core adac_core_roteado
+ nero -p adac_core_posicionado adac_core adac_core_roteado 
+
+ graal -l 'adac_core_roteado'&
+
+ man cougar
+
+ export MBK_OUT_LO=al
+
+ cougar adac_core_roteado adac_core_roteado_extra
+
+ man lvx
+
+ lvx al vst adac_core_roteado_extra adac_core //compara netlist extraída pos roteamento do core com a  netlist sintetizada
+
+ export MBK_IN_LO=al
+
+//\\ Simula a netlist extraída do layout roteado com o modelo de ouro COM ATRASO -- o format al (alliance logic) é equivalente a net list vst ou spi no nível das células de biblioteca
+
+ asimut  adac_core_roteado_extra adac_com_atraso_13000 adac_core_roteado_extra_13000_res
+
+//\\vasy - transforma alto nível em algebra booleana RTL
+//\\asimut -b faz a simulação lógica em rtl (vbe) e compara com o modelo de ouro gerado pelo genpat - .pat 
+//\\boom faz a otimização booleana da conversão funcional em alto nível (vhd) para rtl (vbe)
+//\\boog - sintese lógica -> Mapeia RTL para a biblioteca de módulos existentes na tecnologia real (sxlib)  vbe -> vst
+//\\asimut faz a simulação lógica ao nível da net list com os comportamentos colhidos da descrição das células na biblioteca sxlib e checa se o vst continua de acordo com a especificação
+//\\loon -> otimizacao de velocidade/espaço ocupado pelas células mapeadas que formarão o CORE
+//\\ asimut novamente
+//\\Ring vai posicionar e rotear os pads -> biblioteca padlib em torno do CORE formando o CHIP façam man ring
+
+gedit adac_chip.c        // arquivo em C para gerar a netlist do CHIP contendo core e PADS
+
+ export MBK_IN_LO=vst
+
+ export MBK_OUT_LO=vst
+
+ genlib adac_chip   // gera a netlist do chip=core+PADS
+ 
+ 
+ xsch -l adac_chip // Visualisa a netlist do chip em formato esquemático
+
+//\\ cliquem no core e escolham hierarchy para ver o conteúdo do core é a netlist que vocês encapsularam. os demais blocos
+//\\ vão ser os pinos físicos que vão ligar o core - parte lógica do chip- ao emcapsulamento que será colocado no circuito externo
+
+asimut adac_chip adac_com_atraso_13000  adac_chip_res_13000 //para verificar que a conexão dos pads não alterou a funcionalidade do adac
+
+ graal -l 'adac_core_roteado' &      // SALVE COMO adac_core
+
+ //\\ instruções para uso do ring ----  man ring --  O arquivo adac_chip.rin é criado com a ordem em que 
+//\\  os pads nomeados no genlib vão estar posicionados fisicamente nos quatro lados do chip
+
+ring adac_chip adac_chip    //cria automaticamente o layout final do chip com core roteado e pads ! 
+
+ graal -l 'adac_chip' &     // vocês acabam de criar o chip que será fabricado! Podem explorá-lo, fazer flats em suas partes 
+					//\\em particular o interior dos pads são mem complexos pois fazem o casamento dos níveis de corrente e tensão
+					//\\do mundo exterior; 10, 12, 5, 3,3, 2,5 V, ma, com o interior 1,8 V, pa ! muitos e enormes transistores associados para drivar apenas 1 bit
+
+export MBK_OUT_LO=al
+
+cougar adac_chip adac_chip_ex
+
+lvx al vst adac_chip_ex adac_chip
+
+//\\Aqui provamos que a netlist extraída do chip pronto, mesmo em formato al, é idêntica à net list gerada e validada por todas as etapas anteriores
+
+ export MBK_IN_LO=al
+
+ man x2y
+ 
+//\\x2y --> CONVERTE PARA TIPOS DIFERENTES DE ARQUIVOS OS MESMOS TIPOS DE OBJETOS
+
+x2y vst al adac_core adac_core    //cria uma cópia adac_core.al de adac_core.vst
+
+//\\ foi necessário pois na simulação hierárquica, como estabelecemos MBK_IN_LO=al todas as netlists a simular têm que ter uma versão compatível, nesse caso: al
+
+ asimut adac_chip_ex adac_com_atraso_13000  adac_chip_ex_res_13000
+
+//\\ aqui demonstramos que além das netlists serem idênticas o chip completo se comporta exatamente como nossa especificação
+//\\ criada lá no genpat com o acrécimo do atraso compatível. aliás o mesmo atraso só das portas foi suficiente para validar o chip mesmop com os pads!
+
+AGORA SIM Um chip em uma tarde! OOPs após correções no script, Um chip em uma manhã! Histórico 25/03/2020 11:50 
+
+
+Zé FINI! OBRIGADO

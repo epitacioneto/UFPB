@@ -1,0 +1,5 @@
+east ( p_vddick0 p_vddeck0 ) 
+west ( p_vssick0 p_vsseck0 )
+north (p_a3 p_a2 p_a1 p_a0 p_sel0 p_sel1)
+south (p_s3 p_s2 p_s1 p_s0 p_c_4 p_ck)
+width (vss 120 vdd 120)

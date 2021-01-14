@@ -1,0 +1,17 @@
+TOP (
+	(IOPIN a(3).0);
+	(IOPIN a(2).0);
+	(IOPIN a(1).0);
+	(IOPIN a(0).0);
+	(IOPIN sel0.0);
+	(IOPIN sel1.0);
+	(IOPIN clk.0);
+)
+
+BOTTOM (
+	(IOPIN s(3).0);
+	(IOPIN s(2).0);
+	(IOPIN s(1).0);
+	(IOPIN s(0).0);
+	(IOPIN c_4.0);
+)

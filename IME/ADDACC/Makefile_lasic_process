@@ -1,0 +1,334 @@
+# /------------------------------------------------------------------\
+# |                                                                   |
+# |                 LASICPROCESS MAKEFILE GENERATOR V1.1              |
+# |                                                                   |
+# |                                      by CARLOS CARVALHO           |
+# |                                      www.lasic.ufpb.br - 2012     |
+# |                                                                   |
+# |                                                                   |
+# \------------------------------------------------------------------/
+#  
+# /------------------------------------------------------------------\
+#                         Project: Somador de 4 bits            
+#                         Manager: Antonio Carlos
+#    
+#                         Date/Time: 30/07/2012  -  01:47   
+# \------------------------------------------------------------------/
+#
+#
+#
+# /------------------------------------------------------------------\
+# |                        Macros definitions                        |
+# \------------------------------------------------------------------/
+#
+
+# Standart System binary access paths.
+ STANDART_BIN  = /usr/local/bin:/usr/bin:/bin
+ STANDART_PATH = PATH=$(STANDART_BIN); export PATH
+
+# Standart Alliance binary access paths.
+ ALLIANCE_BIN  = $(ALLIANCE_TOP)/bin
+ 
+ALLIANCE_EXAMPLES=/usr/share/doc/alliance-doc-5.0/alliance-examples
+
+# --------------------------------------------------------------------
+# Standarts binaries.
+
+           LS =                  /bin/ls
+           CD = PATH=$(STANDART_BIN); cd
+           CP = PATH=$(STANDART_BIN); cp
+           LN = PATH=$(STANDART_BIN); ln
+           MV = PATH=$(STANDART_BIN); mv
+           RM = PATH=$(STANDART_BIN); rm
+          SED = PATH=$(STANDART_BIN); sed
+          AWK = PATH=$(STANDART_BIN); gawk
+          CAT = PATH=$(STANDART_BIN); cat
+         MAKE = PATH=$(STANDART_BIN); make
+       TOUCH = PATH=$(STANDART_BIN); touch
+       GREP = PATH=$(STANDART_BIN); grep
+         ECHO =                  /bin/echo
+#  Alliance paths and formats settings.
+ GENERAT_LO   = vst
+ EXTRACT_LO   = al
+ GENERAT_PH   = ap
+ EXTRACT_PH   = ap
+ GENERAT_SP   = .
+ EXTRACT_SP   = .
+    CATA_LIB0 = $(ALLIANCE_TOP)/cells/sxlib
+    CATA_LIB1 = $(ALLIANCE_TOP)/cells/dp_sxlib
+    CATA_LIB2 = $(ALLIANCE_TOP)/cells/padlib
+    CATA_LIB  = .:$(CATA_LIB0):$(CATA_LIB1):$(CATA_LIB2)
+   TARGET_LIB = $(ALLIANCE_TOP)/cells/sxlib
+RDS_TECHNO_SYMB = $(ALLIANCE_EXAMPLES)/etc/techno-symb.rds
+RDS_TECHNO      = $(ALLIANCE_EXAMPLES)/etc/techno-035.rds
+   GRAAL_TECHNO = $(ALLIANCE_TOP)/etc/cmos.graal
+
+
+ MBK_GENERAT_ENV = MBK_TARGET_LIB=$(TARGET_LIB);  export MBK_TARGET_LIB;    \
+                   MBK_WORK_LIB=.;                export MBK_WORK_LIB;      \
+                   MBK_CATA_LIB=$(CATA_LIB);	  export MBK_CATA_LIB;      \
+                   MBK_CATAL_NAME=CATAL;          export MBK_CATAL_NAME;    \
+                   MBK_OUT_LO=$(GENERAT_LO);      export MBK_OUT_LO;        \
+                   MBK_OUT_PH=$(GENERAT_PH);      export MBK_OUT_PH;        \
+                   MBK_IN_LO=$(GENERAT_LO);       export MBK_IN_LO;         \
+                   MBK_IN_PH=$(GENERAT_PH);       export MBK_IN_PH;         \
+                   MBK_SEPAR=$(GENERAT_SP);       export MBK_SEPAR;         \
+                   MBK_VDD=vdd;                   export MBK_VDD;           \
+                   MBK_VSS=vss;                   export MBK_VSS;	    \
+		   RDS_TECHNO_NAME=$(RDS_TECHNO_SYMB);export RDS_TECHNO_NAME;\
+		   GRAAL_TECHNO_NAME=$(GRAAL_TECHNO); export GRAAL_TECHNO_NAME
+#RDS_TECHNO_NAME=$(RDS_TECHNO); export RDS_TECHNO_NAME; 
+		   
+# MBK extracting environment.
+ MBK_EXTRACT_ENV = MBK_TARGET_LIB=$(TARGET_LIB); export MBK_TARGET_LIB; \
+                   MBK_WORK_LIB=.;               export MBK_WORK_LIB;   \
+                   MBK_CATA_LIB=$(CATA_LIB);     export MBK_CATA_LIB;   \
+                   MBK_CATAL_NAME=CATAL;         export MBK_CATAL_NAME; \
+                   MBK_OUT_LO=$(EXTRACT_LO);     export MBK_OUT_LO;     \
+                   MBK_OUT_PH=$(EXTRACT_PH);     export MBK_OUT_PH;     \
+                   MBK_IN_LO=$(EXTRACT_LO);      export MBK_IN_LO;      \
+                   MBK_IN_PH=$(EXTRACT_PH);      export MBK_IN_PH;      \
+                   MBK_SEPAR=$(EXTRACT_SP);      export MBK_SEPAR;      \
+                   MBK_VDD=vdd;                  export MBK_VDD;        \
+                   MBK_VSS=vss;                  export MBK_VSS;	\
+		   RDS_TECHNO_NAME=$(RDS_TECHNO); export RDS_TECHNO_NAME;\
+                   GRAAL_TECHNO_NAME=$(GRAAL_TECHNO_SYMB); export GRAAL_TECHNO_NAME
+ #RDS_TECHNO_NAME=$(REAL_RDS_TECHNO); export RDS_TECHNO_NAME;\
+                   #GRAAL_TECHNO_NAME=$(GRAAL_TECHNO); export GRAAL_TECHNO_NAME
+
+#MBK_EXTRACT_ENV = MBK_WORK_LIB=.; export MBK_WORK_LIB; \
+           MBK_IN_LO=al; export MBK_IN_LO; \
+	   MBK_OUT_LO=al; export MBK_OUT_LO; \
+           RDS_TECHNO_NAME=$(RDS_TECHNO); export RDS_TECHNO_NAME; \
+           RDS_IN=cif; export RDS_IN; \
+           RDS_OUT=cif; export RDS_OUT; \
+           MBK_CATA_LIB=$(TARGET_LIB); export MBK_CATA_LIB; \
+           MBK_IN_PH=ap; export MBK_IN_PH; \
+           MBK_OUT_PH=ap; export MBK_OUT_PH; \
+           MBK_CATAL_NAME=CATAL; export MBK_CATAL_NAME
+
+MBK_EXTRACT_ENV_SPI = MBK_TARGET_LIB=$(TARGET_LIB); export MBK_TARGET_LIB; \
+                   MBK_WORK_LIB=.;               export MBK_WORK_LIB;   \
+                   MBK_CATA_LIB=$(CATA_LIB);     export MBK_CATA_LIB;   \
+                   MBK_CATAL_NAME=CATAL;         export MBK_CATAL_NAME; \
+                   MBK_OUT_LO=spi;     export MBK_OUT_LO;     \
+                   MBK_OUT_PH=$(EXTRACT_PH);     export MBK_OUT_PH;     \
+                   MBK_IN_LO=spi;      export MBK_IN_LO;      \
+                   MBK_IN_PH=$(EXTRACT_PH);      export MBK_IN_PH;      \
+                   MBK_SEPAR=$(EXTRACT_SP);      export MBK_SEPAR;      \
+                   MBK_VDD=vdd;                  export MBK_VDD;        \
+                   MBK_VSS=vss;                  export MBK_VSS;	\
+		   RDS_TECHNO_NAME=$(REAL_RDS_TECHNO); export RDS_TECHNO_NAME;\
+                   GRAAL_TECHNO_NAME=$(GRAAL_TECHNO); export GRAAL_TECHNO_NAME
+		   
+# --------------------------------------------------------------------
+# Alliance binaries & environment.
+
+     BOOM = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/boom -V
+     BOOG = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/boog 
+     LOON = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/loon
+   ASIMUT1 = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/asimut
+   ASIMUT2 = $(MBK_EXTRACT_ENV); $(ALLIANCE_BIN)/asimut
+   COUGAR = $(ALLIANCE_BIN)/cougar
+   COUGAR2= $(MBK_EXTRACT_ENV); $(ALLIANCE_BIN)/cougar
+     DRUC = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/druc
+      LVX = $(MBK_EXTRACT_ENV); $(ALLIANCE_BIN)/lvx
+    PROOF = $(MBK_EXTRACT_ENV); $(ALLIANCE_BIN)/proof
+   GENLIB = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/genlib
+   GENPAT = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/genpat
+      OCP = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/ocp 
+     NERO = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/nero 
+     OCR  = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/ocr 
+     RING = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/ring
+    GRAAL = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/graal
+    DREAL = $(MBK_EXTRACT_ENV); $(ALLIANCE_BIN)/dreal
+    XSCH  = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/xsch
+    XPAT  = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/xpat
+    VASY  = $(MBK_GENERAT_ENV); $(ALLIANCE_BIN)/vasy
+
+
+# /------------------------------------------------------------------\
+# |                              Rules                               |
+# \------------------------------------------------------------------/
+#
+
+all: soma4_chip.vst soma4_chip.rin soma4 graal
+
+# /------------------------------------------------------------------\
+# |                             Functional                           |
+# \------------------------------------------------------------------/
+# /--------------------------\
+# |          Genpat          |
+# \--------------------------/
+
+functional: soma4_genpat_sem_atraso.c
+	$(GENPAT) soma4_genpat_sem_atraso
+
+# /------------------------------------------------------------------\
+# |                             Behavioral                           |
+# \------------------------------------------------------------------/
+# /--------------------------\
+# |           Vasy           |
+# \--------------------------/
+
+behavioral:  soma4_vasy.vhd
+	$(VASY) -a -I vhd soma4_vasy soma4_vasy
+	
+# /--------------------------\
+# |           Asimut         |
+# \--------------------------/
+
+# soma4_vasy_res.pat: soma4_vasy.vbe soma4_genpat_sem_atraso.pat
+	$(ASIMUT1) -b soma4_vasy soma4_genpat_sem_atraso soma4_vasy_res
+
+# /------------------------------------------------------------------\
+# |                           RTL Synthesys                          |
+# \------------------------------------------------------------------/
+# /--------------------------\
+# |           Boom           |
+# \--------------------------/
+
+RTL_synthesys: soma4_vasy.vbe
+	$(BOOM) soma4_vasy soma4_vasy_boom
+	
+# /--------------------------\
+# |           Asimut         |
+# \--------------------------/
+
+# soma4_vasy_boom_res.pat: soma4_vasy_boom.vbe soma4_vasy_res.pat
+	$(ASIMUT1) -b soma4_vasy_boom soma4_vasy_res soma4_vasy_boom_res
+
+# /------------------------------------------------------------------\
+# |                         ASIC Prototyping                         |
+# \------------------------------------------------------------------/
+# /--------------------------\
+# |           Boog           |
+# \--------------------------/
+
+ASIC_prototype: soma4_vasy_boom.vbe
+	(export EXTRACT_LO=vst; $(BOOG) -m 2 soma4_vasy_boom soma4_vasy_boog)
+	
+# /--------------------------\
+# |          Genpat          |
+# \--------------------------/
+
+# soma4_genpat_com_atraso.pat: soma4_genpat_com_atraso.c
+	$(GENPAT) soma4_genpat_com_atraso
+
+# /--------------------------\
+# |         Asimut           |
+# \--------------------------/
+
+# soma4_genpat_com_atraso_res.pat: soma4_vasy_boog.vst soma4_genpat_com_atraso.pat
+	$(ASIMUT1) soma4_vasy_boog soma4_genpat_com_atraso soma4_genpat_com_atraso_res
+
+# /--------------------------\
+# |           Loon           |
+# \--------------------------/
+
+#soma4_core_routed.vst: soma4_vasy_boog.vst
+	$(LOON) -m 2 soma4_vasy_boog soma4_core_routed
+
+# /--------------------------\
+# |         Asimut           |
+# \--------------------------/
+
+# soma4: soma4_genpat_com_atraso.pat soma4_core_routed.vst
+	$(ASIMUT1) soma4_core_routed soma4_genpat_com_atraso soma4_chip_genlib.c
+
+
+# /------------------------------------------------------------------\
+# |                         PLACE & ROUTE                            |
+# \------------------------------------------------------------------/
+# /--------------------------\
+# |           OCP            |
+# \--------------------------/
+
+place_route1 : soma4_core_routed.vst soma4_core_placed.ap
+	$(OCP) -rows 6 -ioc soma4_core_placed.ap -v soma4_core_routed soma4_core_routed
+
+# /--------------------------\
+# |           Nero           |
+# \--------------------------/
+
+place_route2 : soma4_core_routed.ap soma4_core_routed.vst
+	$(NERO) -p soma4_core_routed soma4_core_routed soma4_chip.vst
+
+# /--------------------------\
+# |          Genlib          |
+# \--------------------------/
+
+# soma4_chip.rin: soma4.ioc
+	$(GENLIB) soma4.io
+
+# /--------------------------\
+# |           Ring           |
+# \--------------------------/
+
+# soma4: soma4_chip.ap soma4_chip.rin
+	$(RING) soma4_chip.ap soma4_chip.rin
+            
+# /------------------------------------------------------------------\
+# |                       NETLISTS COMPARISON                        |
+# \------------------------------------------------------------------/
+# /--------------------------\
+# |           COUGAR         |
+# \--------------------------/
+
+netlists_compare: soma4_core_routed.ap
+	$(COUGAR2) soma4_core_routed
+
+# /--------------------------\
+# |            LVX           |
+# \--------------------------/
+
+# soma4_core_routed.vst  soma4
+	$(LVX) al vst soma4  soma4_core_routed
+
+# /*------------------------------------------------------------\
+# |                                                             |
+# |                             TOOLS                           |
+# |                                                             |
+# \------------------------------------------------------------*/
+
+graal: soma4
+	$(GRAAL) -l soma4p
+
+
+# /*------------------------------------------------------------\
+# |                                                             |
+# |                             CLEAN                           |
+# |                                                             |
+# \------------------------------------------------------------*/
+
+clean :
+	rm -f Makefile-* \
+	      Makefile.* \
+		  *.ap       \
+          *.res.pat  \
+		  *.frr      \
+	      *.log      \
+	      *.drc      \
+	      *.gds      \
+	      *.def		 \
+	      *.gpl		 \
+		  *.gpt		 \
+	      *.pat		 \
+	      *.vst		 \
+	      *.vbe		 \
+	      *.xsc		 \
+	      *.al	     \
+	      test_*.pat \
+	      *~	     \
+	      *cif       \
+	      lvx_core druc_core \
+	      lvx_chip druc_chip \
+	      druc_ocp alldata.dat \
+	      model_*
+
+# /*-------------------------------------------------\
+# | LASIC - Laboratorio de Arquitetura,              |
+# |         Sistemas Integráveis e Circuitos (2012)  |
+# \-------------------------------------------------*/
+
+

@@ -1,0 +1,2620 @@
+
+             @@@@ @                        @@@@@@@                      
+           @@    @@                          @@   @@               @    
+          @@      @                          @@    @@             @@    
+         @@             @@@@@   @@@ @@@      @@    @@   @@@@      @@    
+         @@            @     @   @@@   @     @@   @@   @@   @   @@@@@@@@
+         @@     @@@@@ @@     @@  @@    @@    @@@@@     @@   @@    @@    
+         @@     @ @@  @@@@@@@@@  @@    @@    @@          @@@@@    @@    
+         @@    @  @@  @@         @@    @@    @@        @@   @@    @@    
+          @@      @@  @@      @  @@    @@    @@       @@    @@    @@    
+           @@    @@    @@    @@  @@    @@    @@       @@   @@@    @@   @
+             @@@@        @@@@   @@@@  @@@@ @@@@@@      @@@@  @@    @@@@ 
+
+                     Procedural GENeration of test PATterns
+
+                   Alliance CAD System 5.0,         genpat 3.1
+                   Copyright (c) 1991-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+                 @@@@    @@@       @        @@@@ @  @@@@   @@@@
+                  @@      @        @       @    @@   @@     @  
+                  @@      @       @@@     @@     @    @@   @   
+                   @@    @        @@@     @@@          @@ @    
+                   @@    @       @  @@     @@@@         @@     
+                    @@  @        @  @@       @@@@       @@     
+                    @@  @       @    @@        @@@      @@     
+                     @@@        @@@@@@@   @      @@     @@     
+                     @@@       @      @@  @@     @@     @@     
+                      @        @      @@  @@@    @      @@     
+                      @      @@@@    @@@@ @  @@@@     @@@@@@   
+
+                           VHDL Analyzer for SYnthesis
+
+                   Alliance CAD System 5.0,           vasy 5.0
+                   Copyright (c) 2000-2020,     ASIM/LIP6/UPMC
+                   Author(s):                  Ludovic Jacomme
+                   Contributor(s):             Frederic Petrot
+                   E-mail        : alliance-users@asim.lip6.fr
+
+	--> Run VHDL Compiler
+	--> Compile file adac
+	--> Drive Alliance file adac_vasy
+
+
+             @        @@@@ @     @                            @@@@@@@@@@ 
+             @       @    @@    @@@                           @   @@   @ 
+            @@@     @@     @     @                           @    @@    @
+            @@@     @@@              @@@ @@ @@@   @@@  @@@@       @@     
+           @  @@     @@@@     @@@@    @@@ @@  @@   @@    @@       @@     
+           @  @@       @@@@     @@    @@  @@  @@   @@    @@       @@     
+          @    @@        @@@    @@    @@  @@  @@   @@    @@       @@     
+          @@@@@@@   @      @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@     @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@@    @    @@    @@  @@  @@   @@   @@@       @@     
+       @@@@    @@@@ @  @@@@   @@@@@@ @@@@ @@@ @@@   @@@@  @@    @@@@@@   
+
+                                A SIMUlation Tool
+
+                 Alliance CAD System 5.0,          asimut v3.02
+                 Copyright (c) 1991...1999-2020, ASIM/LIP6/UPMC
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	Paris, France, Europe, Earth, Solar system, Milky Way, ...
+initializing ...
+searching `adac_vasy` ...
+BEH : Compiling `adac_vasy.vbe` (Behaviour) ...
+making GEX ...
+
+searching pattern file : `adac_sem_atraso` ...
+restoring ...
+
+linking ...
+executing ...
+###----- processing pattern 0 : 0 ps -----###
+###----- processing pattern 1 : 1 ps -----###
+###----- processing pattern 2 : 2 ps -----###
+###----- processing pattern 3 : 3 ps -----###
+###----- processing pattern 4 : 4 ps -----###
+###----- processing pattern 5 : 5 ps -----###
+###----- processing pattern 6 : 6 ps -----###
+###----- processing pattern 7 : 7 ps -----###
+###----- processing pattern 8 : 8 ps -----###
+###----- processing pattern 9 : 9 ps -----###
+###----- processing pattern 10 : 10 ps -----###
+###----- processing pattern 11 : 11 ps -----###
+###----- processing pattern 12 : 12 ps -----###
+###----- processing pattern 13 : 13 ps -----###
+###----- processing pattern 14 : 14 ps -----###
+###----- processing pattern 15 : 15 ps -----###
+###----- processing pattern 16 : 16 ps -----###
+###----- processing pattern 17 : 17 ps -----###
+###----- processing pattern 18 : 18 ps -----###
+###----- processing pattern 19 : 19 ps -----###
+###----- processing pattern 20 : 20 ps -----###
+###----- processing pattern 21 : 21 ps -----###
+###----- processing pattern 22 : 22 ps -----###
+###----- processing pattern 23 : 23 ps -----###
+###----- processing pattern 24 : 24 ps -----###
+###----- processing pattern 25 : 25 ps -----###
+###----- processing pattern 26 : 26 ps -----###
+###----- processing pattern 27 : 27 ps -----###
+###----- processing pattern 28 : 28 ps -----###
+###----- processing pattern 29 : 29 ps -----###
+###----- processing pattern 30 : 30 ps -----###
+###----- processing pattern 31 : 31 ps -----###
+###----- processing pattern 32 : 32 ps -----###
+###----- processing pattern 33 : 33 ps -----###
+###----- processing pattern 34 : 34 ps -----###
+###----- processing pattern 35 : 35 ps -----###
+###----- processing pattern 36 : 36 ps -----###
+###----- processing pattern 37 : 37 ps -----###
+###----- processing pattern 38 : 38 ps -----###
+###----- processing pattern 39 : 39 ps -----###
+###----- processing pattern 40 : 40 ps -----###
+###----- processing pattern 41 : 41 ps -----###
+###----- processing pattern 42 : 42 ps -----###
+###----- processing pattern 43 : 43 ps -----###
+###----- processing pattern 44 : 44 ps -----###
+###----- processing pattern 45 : 45 ps -----###
+###----- processing pattern 46 : 46 ps -----###
+###----- processing pattern 47 : 47 ps -----###
+###----- processing pattern 48 : 48 ps -----###
+###----- processing pattern 49 : 49 ps -----###
+###----- processing pattern 50 : 50 ps -----###
+###----- processing pattern 51 : 51 ps -----###
+###----- processing pattern 52 : 52 ps -----###
+###----- processing pattern 53 : 53 ps -----###
+###----- processing pattern 54 : 54 ps -----###
+###----- processing pattern 55 : 55 ps -----###
+###----- processing pattern 56 : 56 ps -----###
+###----- processing pattern 57 : 57 ps -----###
+###----- processing pattern 58 : 58 ps -----###
+###----- processing pattern 59 : 59 ps -----###
+###----- processing pattern 60 : 60 ps -----###
+###----- processing pattern 61 : 61 ps -----###
+###----- processing pattern 62 : 62 ps -----###
+###----- processing pattern 63 : 63 ps -----###
+###----- processing pattern 64 : 64 ps -----###
+###----- processing pattern 65 : 65 ps -----###
+###----- processing pattern 66 : 66 ps -----###
+###----- processing pattern 67 : 67 ps -----###
+###----- processing pattern 68 : 68 ps -----###
+###----- processing pattern 69 : 69 ps -----###
+###----- processing pattern 70 : 70 ps -----###
+###----- processing pattern 71 : 71 ps -----###
+###----- processing pattern 72 : 72 ps -----###
+###----- processing pattern 73 : 73 ps -----###
+###----- processing pattern 74 : 74 ps -----###
+###----- processing pattern 75 : 75 ps -----###
+###----- processing pattern 76 : 76 ps -----###
+###----- processing pattern 77 : 77 ps -----###
+###----- processing pattern 78 : 78 ps -----###
+###----- processing pattern 79 : 79 ps -----###
+###----- processing pattern 80 : 80 ps -----###
+###----- processing pattern 81 : 81 ps -----###
+###----- processing pattern 82 : 82 ps -----###
+###----- processing pattern 83 : 83 ps -----###
+###----- processing pattern 84 : 84 ps -----###
+###----- processing pattern 85 : 85 ps -----###
+###----- processing pattern 86 : 86 ps -----###
+###----- processing pattern 87 : 87 ps -----###
+###----- processing pattern 88 : 88 ps -----###
+###----- processing pattern 89 : 89 ps -----###
+###----- processing pattern 90 : 90 ps -----###
+###----- processing pattern 91 : 91 ps -----###
+###----- processing pattern 92 : 92 ps -----###
+###----- processing pattern 93 : 93 ps -----###
+###----- processing pattern 94 : 94 ps -----###
+###----- processing pattern 95 : 95 ps -----###
+###----- processing pattern 96 : 96 ps -----###
+###----- processing pattern 97 : 97 ps -----###
+###----- processing pattern 98 : 98 ps -----###
+###----- processing pattern 99 : 99 ps -----###
+###----- processing pattern 100 : 100 ps -----###
+###----- processing pattern 101 : 101 ps -----###
+###----- processing pattern 102 : 102 ps -----###
+###----- processing pattern 103 : 103 ps -----###
+###----- processing pattern 104 : 104 ps -----###
+###----- processing pattern 105 : 105 ps -----###
+###----- processing pattern 106 : 106 ps -----###
+###----- processing pattern 107 : 107 ps -----###
+###----- processing pattern 108 : 108 ps -----###
+###----- processing pattern 109 : 109 ps -----###
+###----- processing pattern 110 : 110 ps -----###
+###----- processing pattern 111 : 111 ps -----###
+###----- processing pattern 112 : 112 ps -----###
+###----- processing pattern 113 : 113 ps -----###
+###----- processing pattern 114 : 114 ps -----###
+###----- processing pattern 115 : 115 ps -----###
+###----- processing pattern 116 : 116 ps -----###
+###----- processing pattern 117 : 117 ps -----###
+###----- processing pattern 118 : 118 ps -----###
+###----- processing pattern 119 : 119 ps -----###
+###----- processing pattern 120 : 120 ps -----###
+###----- processing pattern 121 : 121 ps -----###
+###----- processing pattern 122 : 122 ps -----###
+###----- processing pattern 123 : 123 ps -----###
+###----- processing pattern 124 : 124 ps -----###
+###----- processing pattern 125 : 125 ps -----###
+###----- processing pattern 126 : 126 ps -----###
+###----- processing pattern 127 : 127 ps -----###
+
+                   @@@@@@@                         @@@     @@@
+                     @@   @@                        @@     @@ 
+                     @@    @@                       @@@   @@@ 
+                     @@    @@     @@@       @@@     @@@   @@@ 
+                     @@   @@    @@   @@   @@   @@   @ @@ @ @@ 
+                     @@@@@@    @@     @@ @@     @@  @ @@ @ @@ 
+                     @@    @@  @@     @@ @@     @@  @ @@@  @@ 
+                     @@     @@ @@     @@ @@     @@  @  @@  @@ 
+                     @@     @@ @@     @@ @@     @@  @  @   @@ 
+                     @@    @@   @@   @@   @@   @@   @      @@ 
+                   @@@@@@@@       @@@       @@@    @@@    @@@@
+
+                              BOOlean Minimization
+
+                   Alliance CAD System 5.0,           boom 5.0
+                   Copyright (c) 2000-2020,     ASIM/LIP6/UPMC
+                   Author(s):                  Ludovic Jacomme
+                   E-mail        : alliance-users@asim.lip6.fr
+
+	--> Parse BEH file adac_vasy.vbe
+	--> Drive BEH file adac_vasy_boom_3_50_100
+
+
+             @        @@@@ @     @                            @@@@@@@@@@ 
+             @       @    @@    @@@                           @   @@   @ 
+            @@@     @@     @     @                           @    @@    @
+            @@@     @@@              @@@ @@ @@@   @@@  @@@@       @@     
+           @  @@     @@@@     @@@@    @@@ @@  @@   @@    @@       @@     
+           @  @@       @@@@     @@    @@  @@  @@   @@    @@       @@     
+          @    @@        @@@    @@    @@  @@  @@   @@    @@       @@     
+          @@@@@@@   @      @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@     @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@@    @    @@    @@  @@  @@   @@   @@@       @@     
+       @@@@    @@@@ @  @@@@   @@@@@@ @@@@ @@@ @@@   @@@@  @@    @@@@@@   
+
+                                A SIMUlation Tool
+
+                 Alliance CAD System 5.0,          asimut v3.02
+                 Copyright (c) 1991...1999-2020, ASIM/LIP6/UPMC
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	Paris, France, Europe, Earth, Solar system, Milky Way, ...
+initializing ...
+searching `adac_vasy_boom_3_50_100` ...
+BEH : Compiling `adac_vasy_boom_3_50_100.vbe` (Behaviour) ...
+making GEX ...
+
+searching pattern file : `adac_sem_atraso` ...
+restoring ...
+
+linking ...
+executing ...
+###----- processing pattern 0 : 0 ps -----###
+###----- processing pattern 1 : 1 ps -----###
+###----- processing pattern 2 : 2 ps -----###
+###----- processing pattern 3 : 3 ps -----###
+###----- processing pattern 4 : 4 ps -----###
+###----- processing pattern 5 : 5 ps -----###
+###----- processing pattern 6 : 6 ps -----###
+###----- processing pattern 7 : 7 ps -----###
+###----- processing pattern 8 : 8 ps -----###
+###----- processing pattern 9 : 9 ps -----###
+###----- processing pattern 10 : 10 ps -----###
+###----- processing pattern 11 : 11 ps -----###
+###----- processing pattern 12 : 12 ps -----###
+###----- processing pattern 13 : 13 ps -----###
+###----- processing pattern 14 : 14 ps -----###
+###----- processing pattern 15 : 15 ps -----###
+###----- processing pattern 16 : 16 ps -----###
+###----- processing pattern 17 : 17 ps -----###
+###----- processing pattern 18 : 18 ps -----###
+###----- processing pattern 19 : 19 ps -----###
+###----- processing pattern 20 : 20 ps -----###
+###----- processing pattern 21 : 21 ps -----###
+###----- processing pattern 22 : 22 ps -----###
+###----- processing pattern 23 : 23 ps -----###
+###----- processing pattern 24 : 24 ps -----###
+###----- processing pattern 25 : 25 ps -----###
+###----- processing pattern 26 : 26 ps -----###
+###----- processing pattern 27 : 27 ps -----###
+###----- processing pattern 28 : 28 ps -----###
+###----- processing pattern 29 : 29 ps -----###
+###----- processing pattern 30 : 30 ps -----###
+###----- processing pattern 31 : 31 ps -----###
+###----- processing pattern 32 : 32 ps -----###
+###----- processing pattern 33 : 33 ps -----###
+###----- processing pattern 34 : 34 ps -----###
+###----- processing pattern 35 : 35 ps -----###
+###----- processing pattern 36 : 36 ps -----###
+###----- processing pattern 37 : 37 ps -----###
+###----- processing pattern 38 : 38 ps -----###
+###----- processing pattern 39 : 39 ps -----###
+###----- processing pattern 40 : 40 ps -----###
+###----- processing pattern 41 : 41 ps -----###
+###----- processing pattern 42 : 42 ps -----###
+###----- processing pattern 43 : 43 ps -----###
+###----- processing pattern 44 : 44 ps -----###
+###----- processing pattern 45 : 45 ps -----###
+###----- processing pattern 46 : 46 ps -----###
+###----- processing pattern 47 : 47 ps -----###
+###----- processing pattern 48 : 48 ps -----###
+###----- processing pattern 49 : 49 ps -----###
+###----- processing pattern 50 : 50 ps -----###
+###----- processing pattern 51 : 51 ps -----###
+###----- processing pattern 52 : 52 ps -----###
+###----- processing pattern 53 : 53 ps -----###
+###----- processing pattern 54 : 54 ps -----###
+###----- processing pattern 55 : 55 ps -----###
+###----- processing pattern 56 : 56 ps -----###
+###----- processing pattern 57 : 57 ps -----###
+###----- processing pattern 58 : 58 ps -----###
+###----- processing pattern 59 : 59 ps -----###
+###----- processing pattern 60 : 60 ps -----###
+###----- processing pattern 61 : 61 ps -----###
+###----- processing pattern 62 : 62 ps -----###
+###----- processing pattern 63 : 63 ps -----###
+###----- processing pattern 64 : 64 ps -----###
+###----- processing pattern 65 : 65 ps -----###
+###----- processing pattern 66 : 66 ps -----###
+###----- processing pattern 67 : 67 ps -----###
+###----- processing pattern 68 : 68 ps -----###
+###----- processing pattern 69 : 69 ps -----###
+###----- processing pattern 70 : 70 ps -----###
+###----- processing pattern 71 : 71 ps -----###
+###----- processing pattern 72 : 72 ps -----###
+###----- processing pattern 73 : 73 ps -----###
+###----- processing pattern 74 : 74 ps -----###
+###----- processing pattern 75 : 75 ps -----###
+###----- processing pattern 76 : 76 ps -----###
+###----- processing pattern 77 : 77 ps -----###
+###----- processing pattern 78 : 78 ps -----###
+###----- processing pattern 79 : 79 ps -----###
+###----- processing pattern 80 : 80 ps -----###
+###----- processing pattern 81 : 81 ps -----###
+###----- processing pattern 82 : 82 ps -----###
+###----- processing pattern 83 : 83 ps -----###
+###----- processing pattern 84 : 84 ps -----###
+###----- processing pattern 85 : 85 ps -----###
+###----- processing pattern 86 : 86 ps -----###
+###----- processing pattern 87 : 87 ps -----###
+###----- processing pattern 88 : 88 ps -----###
+###----- processing pattern 89 : 89 ps -----###
+###----- processing pattern 90 : 90 ps -----###
+###----- processing pattern 91 : 91 ps -----###
+###----- processing pattern 92 : 92 ps -----###
+###----- processing pattern 93 : 93 ps -----###
+###----- processing pattern 94 : 94 ps -----###
+###----- processing pattern 95 : 95 ps -----###
+###----- processing pattern 96 : 96 ps -----###
+###----- processing pattern 97 : 97 ps -----###
+###----- processing pattern 98 : 98 ps -----###
+###----- processing pattern 99 : 99 ps -----###
+###----- processing pattern 100 : 100 ps -----###
+###----- processing pattern 101 : 101 ps -----###
+###----- processing pattern 102 : 102 ps -----###
+###----- processing pattern 103 : 103 ps -----###
+###----- processing pattern 104 : 104 ps -----###
+###----- processing pattern 105 : 105 ps -----###
+###----- processing pattern 106 : 106 ps -----###
+###----- processing pattern 107 : 107 ps -----###
+###----- processing pattern 108 : 108 ps -----###
+###----- processing pattern 109 : 109 ps -----###
+###----- processing pattern 110 : 110 ps -----###
+###----- processing pattern 111 : 111 ps -----###
+###----- processing pattern 112 : 112 ps -----###
+###----- processing pattern 113 : 113 ps -----###
+###----- processing pattern 114 : 114 ps -----###
+###----- processing pattern 115 : 115 ps -----###
+###----- processing pattern 116 : 116 ps -----###
+###----- processing pattern 117 : 117 ps -----###
+###----- processing pattern 118 : 118 ps -----###
+###----- processing pattern 119 : 119 ps -----###
+###----- processing pattern 120 : 120 ps -----###
+###----- processing pattern 121 : 121 ps -----###
+###----- processing pattern 122 : 122 ps -----###
+###----- processing pattern 123 : 123 ps -----###
+###----- processing pattern 124 : 124 ps -----###
+###----- processing pattern 125 : 125 ps -----###
+###----- processing pattern 126 : 126 ps -----###
+###----- processing pattern 127 : 127 ps -----###
+
+                @@@@@@@                                     @@@ 
+                  @@   @@                                  @  @@
+                  @@    @@                                @@  @@
+                  @@    @@ @@@ @@@     @@@       @@@      @@    
+                  @@   @@   @@@  @@  @@   @@   @@   @@  @@@@@@@@
+                  @@@@@     @@   @@ @@     @@ @@     @@   @@    
+                  @@        @@      @@     @@ @@     @@   @@    
+                  @@        @@      @@     @@ @@     @@   @@    
+                  @@        @@      @@     @@ @@     @@   @@    
+                  @@        @@       @@   @@   @@   @@    @@    
+                @@@@@@     @@@@        @@@       @@@    @@@@@@  
+
+                                  Formal Proof
+
+                   Alliance CAD System 5.0,          proof 5.0
+                   Copyright (c) 1990-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+================================  Environment  ================================
+MBK_WORK_LIB		= .
+MBK_CATA_LIB		= .:/usr/alliance/cells/sxlib:/usr/alliance/cells/dp_sxlib:/usr/alliance/cells/rflib:/usr/alliance/cells/rf2lib:/usr/alliance/cells/ramlib:/usr/alliance/cells/romlib:/usr/alliance/cells/pxlib:/usr/alliance/cells/padlib
+=======================  Files, Options and Parameters  =======================
+First VHDL file		= adac_vasy.vbe
+Second VHDL file	= adac_vasy_boom_3_50_100.vbe
+The common auxiliary signals are kept
+Errors are displayed
+===============================================================================
+
+Compiling 'adac_vasy' ...
+Compiling 'adac_vasy_boom_3_50_100' ...
+Looking for the common auxiliary signals :
+
+
+---> final number of nodes = 534(406)
+
+Running Abl2Bdd on `adac_vasy_boom_3_50_100`
+--------------------------------------------------------------------------------
+             Formal proof with Ordered Binary Decision Diagrams between   
+
+             './adac_vasy'  and  './adac_vasy_boom_3_50_100'
+--------------------------------------------------------------------------------
+==============================  PRIMARY OUTPUT  ===============================
+=============================  AUXILIARY SIGNAL  ==============================
+==============================  REGISTER SIGNAL  ==============================
+===============================  EXTERNAL BUS =================================
+================================ INTERNAL BUS =================================
+
+                            Formal Proof : OK
+
+pppppppppppppppppppppppprrrrrrrrrrrrooooooooooooooooooooooooooooofffffffffffffff
+--------------------------------------------------------------------------------
+
+
+
+Mapping Warning: Cell 'oa22_x4' isn't supported
+Mapping Warning: Cell 'fulladder_x4' isn't supported
+Mapping Warning: Cell 'oa3ao322_x4' isn't supported
+Mapping Warning: Cell 'halfadder_x2' isn't supported
+Mapping Warning: Cell 'oa2a2a23_x4' isn't supported
+Mapping Warning: Cell 'oa2a2a2a24_x4' isn't supported
+Mapping Warning: Cell 'noa2a2a23_x4' isn't supported
+Mapping Warning: Cell 'noa2a22_x4' isn't supported
+Mapping Warning: Cell 'oa2ao222_x4' isn't supported
+Mapping Warning: Cell 'no3_x4' isn't supported
+Mapping Warning: Cell 'fulladder_x2' isn't supported
+Mapping Warning: Cell 'o4_x4' isn't supported
+Mapping Warning: Cell 'o2_x4' isn't supported
+Mapping Warning: Cell 'no2_x4' isn't supported
+Mapping Warning: Cell 'mx2_x4' isn't supported
+Mapping Warning: Cell 'na3_x4' isn't supported
+Mapping Warning: Cell 'nao22_x4' isn't supported
+Mapping Warning: Cell 'halfadder_x4' isn't supported
+Mapping Warning: Cell 'a2_x4' isn't supported
+Mapping Warning: Cell 'nmx2_x4' isn't supported
+Mapping Warning: Cell 'on12_x4' isn't supported
+Mapping Warning: Cell 'noa2ao222_x4' isn't supported
+Mapping Warning: Cell 'ao2o22_x4' isn't supported
+Mapping Warning: Cell 'noa22_x4' isn't supported
+Mapping Warning: Cell 'a3_x4' isn't supported
+
+                  @@@@@@@                             @@@@ @  
+                    @@   @@                         @@    @@  
+                    @@    @@                       @@      @  
+                    @@    @@     @@@       @@@    @@          
+                    @@   @@    @@   @@   @@   @@  @@          
+                    @@@@@@    @@     @@ @@     @@ @@     @@@@@
+                    @@    @@  @@     @@ @@     @@ @@     @ @@ 
+                    @@     @@ @@     @@ @@     @@ @@    @  @@ 
+                    @@     @@ @@     @@ @@     @@  @@      @@ 
+                    @@    @@   @@   @@   @@   @@    @@    @@  
+                  @@@@@@@@       @@@       @@@        @@@@    
+
+                         Binding and Optimizing On Gates
+
+                 Alliance CAD System 5.0, boog 5.0 [2003/01/09]
+                 Copyright (c) 2000-2020,        ASIM/LIP6/UPMC
+                 Author(s):                     Fran\E7ois Donnet
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+        MBK_VDD        : vdd
+        MBK_VSS        : vss
+        MBK_IN_LO      : vst
+        MBK_OUT_LO     : vst
+        MBK_WORK_LIB   : .
+        MBK_TARGET_LIB : /usr/alliance/cells/sxlib
+
+Reading default parameter...
+50% area - 50% delay optimization
+Reading file 'adac_vasy_boom_3_50_100.vbe'...
+Controlling file 'adac_vasy_boom_3_50_100.vbe'...
+Reading lib '/usr/alliance/cells/sxlib'...
+Controlling lib '/usr/alliance/cells/sxlib'...
+Preparing file 'adac_vasy_boom_3_50_100.vbe'...
+Capacitances on file 'adac_vasy_boom_3_50_100.vbe'...
+Unflattening file 'adac_vasy_boom_3_50_100.vbe'...
+Mapping file 'adac_vasy_boom_3_50_100.vbe'...
+Saving file 'adac_vasy_boom_3_50_100_boog_2.vst'...
+Adding signal 'not_a 1'
+Quick estimated critical path (no warranty)...3327 ps from 'acumulador 0' to 's 2'
+Quick estimated area (with over-cell routing)...106750 lambda\B2
+Details...
+	xr2_x1: 13
+	inv_x2: 12
+	na2_x1: 6
+	no2_x1: 5
+	oa2a22_x2: 5
+	buf_x2: 4
+	sff1_x4: 4
+	na3_x1: 2
+	o2_x2: 2
+	an12_x1: 2
+	oa2ao222_x2: 2
+	a2_x2: 2
+	oa22_x2: 1
+	o3_x2: 1
+	noa22_x1: 1
+	a3_x2: 1
+	mx3_x2: 1
+	Total: 64
+Saving critical path in xsch color file 'adac_vasy_boom_3_50_100_boog_2.xsc'...
+End of boog...
+
+
+                    @@@@   @@@@                   @@@       
+                     @@     @                      @@       
+                      @@   @                       @@       
+                       @@ @      @@@@@@     @@@    @@ @@@   
+                        @@      @@    @   @@   @@  @@@  @@  
+                        @@      @@@      @@     @  @@    @@ 
+                        @@@      @@@@    @@        @@    @@ 
+                       @  @@       @@@@  @@        @@    @@ 
+                      @    @@   @    @@@ @@     @  @@    @@ 
+                     @      @@  @@    @@  @@   @@  @@    @@ 
+                    @@@    @@@@ @ @@@@@     @@@   @@@@  @@@@
+
+                           Graphical Schematic Viewer
+
+                 Alliance CAD System 5.0,               xsch 5.0
+                 Copyright (c) 2000-2020,         ASIM/LIP6/UPMC
+                 Author(s):                      Ludovic Jacomme
+                 Contributor(s): B.Miramond, F.Petrot, S.Picault
+                 E-mail        :     alliance-users@asim.lip6.fr
+
+Warning 3 : signal `not_a 1` never used
+
+             @        @@@@ @     @                            @@@@@@@@@@ 
+             @       @    @@    @@@                           @   @@   @ 
+            @@@     @@     @     @                           @    @@    @
+            @@@     @@@              @@@ @@ @@@   @@@  @@@@       @@     
+           @  @@     @@@@     @@@@    @@@ @@  @@   @@    @@       @@     
+           @  @@       @@@@     @@    @@  @@  @@   @@    @@       @@     
+          @    @@        @@@    @@    @@  @@  @@   @@    @@       @@     
+          @@@@@@@   @      @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@     @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@@    @    @@    @@  @@  @@   @@   @@@       @@     
+       @@@@    @@@@ @  @@@@   @@@@@@ @@@@ @@@ @@@   @@@@  @@    @@@@@@   
+
+                                A SIMUlation Tool
+
+                 Alliance CAD System 5.0,          asimut v3.02
+                 Copyright (c) 1991...1999-2020, ASIM/LIP6/UPMC
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	Paris, France, Europe, Earth, Solar system, Milky Way, ...
+initializing ...
+searching `adac_vasy_boom_3_50_100_boog_2` ...
+compiling `adac_vasy_boom_3_50_100_boog_2` (Structural) ...
+
+flattening the root figure ...
+
+searching `a2_x2` ...
+BEH : Compiling `a2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `mx3_x2` ...
+BEH : Compiling `mx3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `xr2_x1` ...
+BEH : Compiling `xr2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2a22_x2` ...
+BEH : Compiling `oa2a22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2ao222_x2` ...
+BEH : Compiling `oa2ao222_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `an12_x1` ...
+BEH : Compiling `an12_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `sff1_x4` ...
+BEH : Compiling `sff1_x4.vbe` (Behaviour) ...
+making GEX ...
+
+searching `a3_x2` ...
+BEH : Compiling `a3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `inv_x2` ...
+BEH : Compiling `inv_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `noa22_x1` ...
+BEH : Compiling `noa22_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o3_x2` ...
+BEH : Compiling `o3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `no2_x1` ...
+BEH : Compiling `no2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o2_x2` ...
+BEH : Compiling `o2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa22_x2` ...
+BEH : Compiling `oa22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na3_x1` ...
+BEH : Compiling `na3_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na2_x1` ...
+BEH : Compiling `na2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `buf_x2` ...
+BEH : Compiling `buf_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching pattern file : `adac_sem_atraso` ...
+restoring ...
+
+linking ...
+executing ...
+###----- processing pattern 0 : 0 ps -----###
+###----- processing pattern 1 : 1 ps -----###
+###----- processing pattern 2 : 2 ps -----###
+###----- processing pattern 3 : 3 ps -----###
+###----- processing pattern 4 : 4 ps -----###
+###----- processing pattern 5 : 5 ps -----###
+###----- processing pattern 6 : 6 ps -----###
+###----- processing pattern 7 : 7 ps -----###
+###----- processing pattern 8 : 8 ps -----###
+###----- processing pattern 9 : 9 ps -----###
+###----- processing pattern 10 : 10 ps -----###
+###----- processing pattern 11 : 11 ps -----###
+###----- processing pattern 12 : 12 ps -----###
+###----- processing pattern 13 : 13 ps -----###
+###----- processing pattern 14 : 14 ps -----###
+###----- processing pattern 15 : 15 ps -----###
+###----- processing pattern 16 : 16 ps -----###
+###----- processing pattern 17 : 17 ps -----###
+###----- processing pattern 18 : 18 ps -----###
+###----- processing pattern 19 : 19 ps -----###
+###----- processing pattern 20 : 20 ps -----###
+###----- processing pattern 21 : 21 ps -----###
+###----- processing pattern 22 : 22 ps -----###
+###----- processing pattern 23 : 23 ps -----###
+###----- processing pattern 24 : 24 ps -----###
+###----- processing pattern 25 : 25 ps -----###
+###----- processing pattern 26 : 26 ps -----###
+###----- processing pattern 27 : 27 ps -----###
+###----- processing pattern 28 : 28 ps -----###
+###----- processing pattern 29 : 29 ps -----###
+###----- processing pattern 30 : 30 ps -----###
+###----- processing pattern 31 : 31 ps -----###
+###----- processing pattern 32 : 32 ps -----###
+###----- processing pattern 33 : 33 ps -----###
+###----- processing pattern 34 : 34 ps -----###
+###----- processing pattern 35 : 35 ps -----###
+###----- processing pattern 36 : 36 ps -----###
+###----- processing pattern 37 : 37 ps -----###
+###----- processing pattern 38 : 38 ps -----###
+###----- processing pattern 39 : 39 ps -----###
+###----- processing pattern 40 : 40 ps -----###
+###----- processing pattern 41 : 41 ps -----###
+###----- processing pattern 42 : 42 ps -----###
+###----- processing pattern 43 : 43 ps -----###
+###----- processing pattern 44 : 44 ps -----###
+###----- processing pattern 45 : 45 ps -----###
+###----- processing pattern 46 : 46 ps -----###
+###----- processing pattern 47 : 47 ps -----###
+###----- processing pattern 48 : 48 ps -----###
+###----- processing pattern 49 : 49 ps -----###
+###----- processing pattern 50 : 50 ps -----###
+###----- processing pattern 51 : 51 ps -----###
+###----- processing pattern 52 : 52 ps -----###
+###----- processing pattern 53 : 53 ps -----###
+###----- processing pattern 54 : 54 ps -----###
+###----- processing pattern 55 : 55 ps -----###
+###----- processing pattern 56 : 56 ps -----###
+###----- processing pattern 57 : 57 ps -----###
+###----- processing pattern 58 : 58 ps -----###
+###----- processing pattern 59 : 59 ps -----###
+###----- processing pattern 60 : 60 ps -----###
+###----- processing pattern 61 : 61 ps -----###
+###----- processing pattern 62 : 62 ps -----###
+###----- processing pattern 63 : 63 ps -----###
+###----- processing pattern 64 : 64 ps -----###
+###----- processing pattern 65 : 65 ps -----###
+###----- processing pattern 66 : 66 ps -----###
+###----- processing pattern 67 : 67 ps -----###
+###----- processing pattern 68 : 68 ps -----###
+###----- processing pattern 69 : 69 ps -----###
+###----- processing pattern 70 : 70 ps -----###
+###----- processing pattern 71 : 71 ps -----###
+###----- processing pattern 72 : 72 ps -----###
+###----- processing pattern 73 : 73 ps -----###
+###----- processing pattern 74 : 74 ps -----###
+###----- processing pattern 75 : 75 ps -----###
+###----- processing pattern 76 : 76 ps -----###
+###----- processing pattern 77 : 77 ps -----###
+###----- processing pattern 78 : 78 ps -----###
+###----- processing pattern 79 : 79 ps -----###
+###----- processing pattern 80 : 80 ps -----###
+###----- processing pattern 81 : 81 ps -----###
+###----- processing pattern 82 : 82 ps -----###
+###----- processing pattern 83 : 83 ps -----###
+###----- processing pattern 84 : 84 ps -----###
+###----- processing pattern 85 : 85 ps -----###
+###----- processing pattern 86 : 86 ps -----###
+###----- processing pattern 87 : 87 ps -----###
+###----- processing pattern 88 : 88 ps -----###
+###----- processing pattern 89 : 89 ps -----###
+###----- processing pattern 90 : 90 ps -----###
+###----- processing pattern 91 : 91 ps -----###
+###----- processing pattern 92 : 92 ps -----###
+###----- processing pattern 93 : 93 ps -----###
+###----- processing pattern 94 : 94 ps -----###
+###----- processing pattern 95 : 95 ps -----###
+###----- processing pattern 96 : 96 ps -----###
+###----- processing pattern 97 : 97 ps -----###
+###----- processing pattern 98 : 98 ps -----###
+###----- processing pattern 99 : 99 ps -----###
+###----- processing pattern 100 : 100 ps -----###
+###----- processing pattern 101 : 101 ps -----###
+###----- processing pattern 102 : 102 ps -----###
+###----- processing pattern 103 : 103 ps -----###
+###----- processing pattern 104 : 104 ps -----###
+###----- processing pattern 105 : 105 ps -----###
+###----- processing pattern 106 : 106 ps -----###
+###----- processing pattern 107 : 107 ps -----###
+###----- processing pattern 108 : 108 ps -----###
+###----- processing pattern 109 : 109 ps -----###
+###----- processing pattern 110 : 110 ps -----###
+###----- processing pattern 111 : 111 ps -----###
+###----- processing pattern 112 : 112 ps -----###
+###----- processing pattern 113 : 113 ps -----###
+###----- processing pattern 114 : 114 ps -----###
+###----- processing pattern 115 : 115 ps -----###
+###----- processing pattern 116 : 116 ps -----###
+###----- processing pattern 117 : 117 ps -----###
+###----- processing pattern 118 : 118 ps -----###
+###----- processing pattern 119 : 119 ps -----###
+###----- processing pattern 120 : 120 ps -----###
+###----- processing pattern 121 : 121 ps -----###
+###----- processing pattern 122 : 122 ps -----###
+###----- processing pattern 123 : 123 ps -----###
+###----- processing pattern 124 : 124 ps -----###
+###----- processing pattern 125 : 125 ps -----###
+###----- processing pattern 126 : 126 ps -----###
+###----- processing pattern 127 : 127 ps -----###
+Warning 3 : signal `not_a 1` never used
+Error 113: expected value differs from the simulation's result on `s 3`
+Error 113: expected value differs from the simulation's result on `s 2`
+Error 113: expected value differs from the simulation's result on `s 1`
+Error 113: expected value differs from the simulation's result on `s 0`
+Error 113: expected value differs from the simulation's result on `c_4`
+Error 113: expected value differs from the simulation's result on `s 3`
+Error 113: expected value differs from the simulation's result on `s 2`
+Error 113: expected value differs from the simulation's result on `s 1`
+Error 113: expected value differs from the simulation's result on `s 0`
+Error 113: expected value differs from the simulation's result on `c_4`
+
+             @        @@@@ @     @                            @@@@@@@@@@ 
+             @       @    @@    @@@                           @   @@   @ 
+            @@@     @@     @     @                           @    @@    @
+            @@@     @@@              @@@ @@ @@@   @@@  @@@@       @@     
+           @  @@     @@@@     @@@@    @@@ @@  @@   @@    @@       @@     
+           @  @@       @@@@     @@    @@  @@  @@   @@    @@       @@     
+          @    @@        @@@    @@    @@  @@  @@   @@    @@       @@     
+          @@@@@@@   @      @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@     @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@@    @    @@    @@  @@  @@   @@   @@@       @@     
+       @@@@    @@@@ @  @@@@   @@@@@@ @@@@ @@@ @@@   @@@@  @@    @@@@@@   
+
+                                A SIMUlation Tool
+
+                 Alliance CAD System 5.0,          asimut v3.02
+                 Copyright (c) 1991...1999-2020, ASIM/LIP6/UPMC
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	Paris, France, Europe, Earth, Solar system, Milky Way, ...
+initializing ...
+searching `adac_vasy_boom_3_50_100_boog_2` ...
+compiling `adac_vasy_boom_3_50_100_boog_2` (Structural) ...
+
+flattening the root figure ...
+
+searching `a2_x2` ...
+BEH : Compiling `a2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `mx3_x2` ...
+BEH : Compiling `mx3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `xr2_x1` ...
+BEH : Compiling `xr2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2a22_x2` ...
+BEH : Compiling `oa2a22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2ao222_x2` ...
+BEH : Compiling `oa2ao222_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `an12_x1` ...
+BEH : Compiling `an12_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `sff1_x4` ...
+BEH : Compiling `sff1_x4.vbe` (Behaviour) ...
+making GEX ...
+
+searching `a3_x2` ...
+BEH : Compiling `a3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `inv_x2` ...
+BEH : Compiling `inv_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `noa22_x1` ...
+BEH : Compiling `noa22_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o3_x2` ...
+BEH : Compiling `o3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `no2_x1` ...
+BEH : Compiling `no2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o2_x2` ...
+BEH : Compiling `o2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa22_x2` ...
+BEH : Compiling `oa22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na3_x1` ...
+BEH : Compiling `na3_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na2_x1` ...
+BEH : Compiling `na2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `buf_x2` ...
+BEH : Compiling `buf_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching pattern file : `adac_sem_atraso` ...
+restoring ...
+
+linking ...
+executing ...
+###----- processing pattern 0 : 0 ps -----###
+###----- processing pattern 1 : 1 ps -----###
+
+             @@@@ @                        @@@@@@@                      
+           @@    @@                          @@   @@               @    
+          @@      @                          @@    @@             @@    
+         @@             @@@@@   @@@ @@@      @@    @@   @@@@      @@    
+         @@            @     @   @@@   @     @@   @@   @@   @   @@@@@@@@
+         @@     @@@@@ @@     @@  @@    @@    @@@@@     @@   @@    @@    
+         @@     @ @@  @@@@@@@@@  @@    @@    @@          @@@@@    @@    
+         @@    @  @@  @@         @@    @@    @@        @@   @@    @@    
+          @@      @@  @@      @  @@    @@    @@       @@    @@    @@    
+           @@    @@    @@    @@  @@    @@    @@       @@   @@@    @@   @
+             @@@@        @@@@   @@@@  @@@@ @@@@@@      @@@@  @@    @@@@ 
+
+                     Procedural GENeration of test PATterns
+
+                   Alliance CAD System 5.0,         genpat 3.1
+                   Copyright (c) 1991-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+Antes::::::::A: 0, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 0
+Diferenciado::::::::mux0:0, soma:0, mux1:0, s:0
+Depois::::::::A: 0, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 0
+Antes::::::::A: 0, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 0
+Diferenciado::::::::mux0:0, soma:0, mux1:0, s:0
+Depois::::::::A: 0, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 0
+Antes::::::::A: 1, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 0
+Diferenciado::::::::mux0:1, soma:1, mux1:1, s:1
+Depois::::::::A: 1, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 1
+Antes::::::::A: 1, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 1
+Diferenciado::::::::mux0:1, soma:2, mux1:1, s:1
+Depois::::::::A: 1, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 1
+Antes::::::::A: 2, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 1
+Diferenciado::::::::mux0:2, soma:3, mux1:2, s:2
+Depois::::::::A: 2, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 2, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:2, soma:4, mux1:2, s:2
+Depois::::::::A: 2, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 3, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:3, soma:5, mux1:3, s:3
+Depois::::::::A: 3, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 3
+Antes::::::::A: 3, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 3
+Diferenciado::::::::mux0:3, soma:6, mux1:3, s:3
+Depois::::::::A: 3, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 3
+Antes::::::::A: 4, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 3
+Diferenciado::::::::mux0:4, soma:7, mux1:4, s:4
+Depois::::::::A: 4, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 4
+Antes::::::::A: 4, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 4
+Diferenciado::::::::mux0:4, soma:8, mux1:4, s:4
+Depois::::::::A: 4, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 4
+Antes::::::::A: 5, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 4
+Diferenciado::::::::mux0:5, soma:9, mux1:5, s:5
+Depois::::::::A: 5, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 5, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:5, soma:10, mux1:5, s:5
+Depois::::::::A: 5, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 6, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:6, soma:11, mux1:6, s:6
+Depois::::::::A: 6, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 6
+Antes::::::::A: 6, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 6
+Diferenciado::::::::mux0:6, soma:12, mux1:6, s:6
+Depois::::::::A: 6, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 6
+Antes::::::::A: 7, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 6
+Diferenciado::::::::mux0:7, soma:13, mux1:7, s:7
+Depois::::::::A: 7, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 7
+Antes::::::::A: 7, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 7
+Diferenciado::::::::mux0:7, soma:14, mux1:7, s:7
+Depois::::::::A: 7, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 7
+Antes::::::::A: 8, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 7
+Diferenciado::::::::mux0:8, soma:15, mux1:8, s:8
+Depois::::::::A: 8, sel0: 0, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 8
+Antes::::::::A: 8, sel0: 0, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 8
+Diferenciado::::::::mux0:8, soma:0, mux1:8, s:8
+Depois::::::::A: 8, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 8
+Antes::::::::A: 9, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 8
+Diferenciado::::::::mux0:9, soma:1, mux1:9, s:9
+Depois::::::::A: 9, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 9
+Antes::::::::A: 9, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 9
+Diferenciado::::::::mux0:9, soma:2, mux1:9, s:9
+Depois::::::::A: 9, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 9
+Antes::::::::A: 10, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 9
+Diferenciado::::::::mux0:10, soma:3, mux1:10, s:10
+Depois::::::::A: 10, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 10, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:10, soma:4, mux1:10, s:10
+Depois::::::::A: 10, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 11, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:11, soma:5, mux1:11, s:11
+Depois::::::::A: 11, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 11
+Antes::::::::A: 11, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 11
+Diferenciado::::::::mux0:11, soma:6, mux1:11, s:11
+Depois::::::::A: 11, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 11
+Antes::::::::A: 12, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 11
+Diferenciado::::::::mux0:12, soma:7, mux1:12, s:12
+Depois::::::::A: 12, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 12
+Antes::::::::A: 12, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 12
+Diferenciado::::::::mux0:12, soma:8, mux1:12, s:12
+Depois::::::::A: 12, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 12
+Antes::::::::A: 13, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 12
+Diferenciado::::::::mux0:13, soma:9, mux1:13, s:13
+Depois::::::::A: 13, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 13, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:13, soma:10, mux1:13, s:13
+Depois::::::::A: 13, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 14, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:14, soma:11, mux1:14, s:14
+Depois::::::::A: 14, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 14
+Antes::::::::A: 14, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 14
+Diferenciado::::::::mux0:14, soma:12, mux1:14, s:14
+Depois::::::::A: 14, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 14
+Antes::::::::A: 15, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 14
+Diferenciado::::::::mux0:15, soma:13, mux1:15, s:15
+Depois::::::::A: 15, sel0: 0, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 15
+Antes::::::::A: 15, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 15
+Diferenciado::::::::mux0:15, soma:14, mux1:15, s:15
+Depois::::::::A: 15, sel0: 0, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 15
+Antes::::::::A: 0, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 15
+Diferenciado::::::::mux0:0, soma:15, mux1:15, s:15
+Depois::::::::A: 0, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 15
+Antes::::::::A: 0, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 15
+Diferenciado::::::::mux0:0, soma:15, mux1:15, s:15
+Depois::::::::A: 0, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 15
+Antes::::::::A: 1, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 15
+Diferenciado::::::::mux0:1, soma:0, mux1:0, s:0
+Depois::::::::A: 1, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 0
+Antes::::::::A: 1, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 0
+Diferenciado::::::::mux0:1, soma:1, mux1:1, s:1
+Depois::::::::A: 1, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 0
+Antes::::::::A: 2, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 0
+Diferenciado::::::::mux0:2, soma:2, mux1:2, s:2
+Depois::::::::A: 2, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 2, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:2, soma:4, mux1:4, s:4
+Depois::::::::A: 2, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 3, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:3, soma:5, mux1:5, s:5
+Depois::::::::A: 3, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 3, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:3, soma:8, mux1:8, s:8
+Depois::::::::A: 3, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 4, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:4, soma:9, mux1:9, s:9
+Depois::::::::A: 4, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 9
+Antes::::::::A: 4, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 9
+Diferenciado::::::::mux0:4, soma:13, mux1:13, s:13
+Depois::::::::A: 4, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 9
+Antes::::::::A: 5, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 9
+Diferenciado::::::::mux0:5, soma:14, mux1:14, s:14
+Depois::::::::A: 5, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 14
+Antes::::::::A: 5, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 14
+Diferenciado::::::::mux0:5, soma:3, mux1:3, s:3
+Depois::::::::A: 5, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 14
+Antes::::::::A: 6, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 14
+Diferenciado::::::::mux0:6, soma:4, mux1:4, s:4
+Depois::::::::A: 6, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 4
+Antes::::::::A: 6, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 4
+Diferenciado::::::::mux0:6, soma:10, mux1:10, s:10
+Depois::::::::A: 6, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 4
+Antes::::::::A: 7, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 4
+Diferenciado::::::::mux0:7, soma:11, mux1:11, s:11
+Depois::::::::A: 7, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 11
+Antes::::::::A: 7, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 11
+Diferenciado::::::::mux0:7, soma:2, mux1:2, s:2
+Depois::::::::A: 7, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 11
+Antes::::::::A: 8, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 11
+Diferenciado::::::::mux0:8, soma:3, mux1:3, s:3
+Depois::::::::A: 8, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 3
+Antes::::::::A: 8, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 3
+Diferenciado::::::::mux0:8, soma:11, mux1:11, s:11
+Depois::::::::A: 8, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 3
+Antes::::::::A: 9, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 3
+Diferenciado::::::::mux0:9, soma:12, mux1:12, s:12
+Depois::::::::A: 9, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 12
+Antes::::::::A: 9, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 12
+Diferenciado::::::::mux0:9, soma:5, mux1:5, s:5
+Depois::::::::A: 9, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 12
+Antes::::::::A: 10, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 12
+Diferenciado::::::::mux0:10, soma:6, mux1:6, s:6
+Depois::::::::A: 10, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 6
+Antes::::::::A: 10, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 6
+Diferenciado::::::::mux0:10, soma:0, mux1:0, s:0
+Depois::::::::A: 10, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 6
+Antes::::::::A: 11, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 6
+Diferenciado::::::::mux0:11, soma:1, mux1:1, s:1
+Depois::::::::A: 11, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 1
+Antes::::::::A: 11, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 1
+Diferenciado::::::::mux0:11, soma:12, mux1:12, s:12
+Depois::::::::A: 11, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 1
+Antes::::::::A: 12, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 1
+Diferenciado::::::::mux0:12, soma:13, mux1:13, s:13
+Depois::::::::A: 12, sel0: 0, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 13
+Antes::::::::A: 12, sel0: 0, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 13
+Diferenciado::::::::mux0:12, soma:9, mux1:9, s:9
+Depois::::::::A: 12, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 13, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:13, soma:10, mux1:10, s:10
+Depois::::::::A: 13, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 13, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:13, soma:7, mux1:7, s:7
+Depois::::::::A: 13, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 14, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:14, soma:8, mux1:8, s:8
+Depois::::::::A: 14, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 8
+Antes::::::::A: 14, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 8
+Diferenciado::::::::mux0:14, soma:6, mux1:6, s:6
+Depois::::::::A: 14, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 8
+Antes::::::::A: 15, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 8
+Diferenciado::::::::mux0:15, soma:7, mux1:7, s:7
+Depois::::::::A: 15, sel0: 0, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 7
+Antes::::::::A: 15, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 7
+Diferenciado::::::::mux0:15, soma:6, mux1:6, s:6
+Depois::::::::A: 15, sel0: 0, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 7
+Antes::::::::A: 0, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 7
+Diferenciado::::::::mux0:15, soma:7, mux1:15, s:15
+Depois::::::::A: 0, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 15
+Antes::::::::A: 0, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 15
+Diferenciado::::::::mux0:15, soma:15, mux1:15, s:15
+Depois::::::::A: 0, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 15
+Antes::::::::A: 1, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 15
+Diferenciado::::::::mux0:14, soma:14, mux1:14, s:14
+Depois::::::::A: 1, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 14
+Antes::::::::A: 1, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 14
+Diferenciado::::::::mux0:14, soma:13, mux1:14, s:14
+Depois::::::::A: 1, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 14
+Antes::::::::A: 2, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 14
+Diferenciado::::::::mux0:13, soma:12, mux1:13, s:13
+Depois::::::::A: 2, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 2, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:13, soma:11, mux1:13, s:13
+Depois::::::::A: 2, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 3, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:12, soma:10, mux1:12, s:12
+Depois::::::::A: 3, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 12
+Antes::::::::A: 3, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 12
+Diferenciado::::::::mux0:12, soma:9, mux1:12, s:12
+Depois::::::::A: 3, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 12
+Antes::::::::A: 4, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 12
+Diferenciado::::::::mux0:11, soma:8, mux1:11, s:11
+Depois::::::::A: 4, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 11
+Antes::::::::A: 4, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 11
+Diferenciado::::::::mux0:11, soma:7, mux1:11, s:11
+Depois::::::::A: 4, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 11
+Antes::::::::A: 5, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 11
+Diferenciado::::::::mux0:10, soma:6, mux1:10, s:10
+Depois::::::::A: 5, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 5, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:10, soma:5, mux1:10, s:10
+Depois::::::::A: 5, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 6, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:9, soma:4, mux1:9, s:9
+Depois::::::::A: 6, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 9
+Antes::::::::A: 6, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 9
+Diferenciado::::::::mux0:9, soma:3, mux1:9, s:9
+Depois::::::::A: 6, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 9
+Antes::::::::A: 7, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 9
+Diferenciado::::::::mux0:8, soma:2, mux1:8, s:8
+Depois::::::::A: 7, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 8
+Antes::::::::A: 7, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 8
+Diferenciado::::::::mux0:8, soma:1, mux1:8, s:8
+Depois::::::::A: 7, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 8
+Antes::::::::A: 8, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 8
+Diferenciado::::::::mux0:7, soma:0, mux1:7, s:7
+Depois::::::::A: 8, sel0: 1, sel1: 0, clk: 0, c_4: 1, s: 0, acc: 7
+Antes::::::::A: 8, sel0: 1, sel1: 0, clk: 1, c_4: 1, s: 0, acc: 7
+Diferenciado::::::::mux0:7, soma:15, mux1:7, s:7
+Depois::::::::A: 8, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 7
+Antes::::::::A: 9, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 7
+Diferenciado::::::::mux0:6, soma:14, mux1:6, s:6
+Depois::::::::A: 9, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 6
+Antes::::::::A: 9, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 6
+Diferenciado::::::::mux0:6, soma:13, mux1:6, s:6
+Depois::::::::A: 9, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 6
+Antes::::::::A: 10, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 6
+Diferenciado::::::::mux0:5, soma:12, mux1:5, s:5
+Depois::::::::A: 10, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 10, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:5, soma:11, mux1:5, s:5
+Depois::::::::A: 10, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 11, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:4, soma:10, mux1:4, s:4
+Depois::::::::A: 11, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 4
+Antes::::::::A: 11, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 4
+Diferenciado::::::::mux0:4, soma:9, mux1:4, s:4
+Depois::::::::A: 11, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 4
+Antes::::::::A: 12, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 4
+Diferenciado::::::::mux0:3, soma:8, mux1:3, s:3
+Depois::::::::A: 12, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 3
+Antes::::::::A: 12, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 3
+Diferenciado::::::::mux0:3, soma:7, mux1:3, s:3
+Depois::::::::A: 12, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 3
+Antes::::::::A: 13, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 3
+Diferenciado::::::::mux0:2, soma:6, mux1:2, s:2
+Depois::::::::A: 13, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 13, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:2, soma:5, mux1:2, s:2
+Depois::::::::A: 13, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 14, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:1, soma:4, mux1:1, s:1
+Depois::::::::A: 14, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 1
+Antes::::::::A: 14, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 1
+Diferenciado::::::::mux0:1, soma:3, mux1:1, s:1
+Depois::::::::A: 14, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 1
+Antes::::::::A: 15, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 1
+Diferenciado::::::::mux0:0, soma:2, mux1:0, s:0
+Depois::::::::A: 15, sel0: 1, sel1: 0, clk: 0, c_4: 0, s: 0, acc: 0
+Antes::::::::A: 15, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 0
+Diferenciado::::::::mux0:0, soma:1, mux1:0, s:0
+Depois::::::::A: 15, sel0: 1, sel1: 0, clk: 1, c_4: 0, s: 0, acc: 0
+Antes::::::::A: 0, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 0
+Diferenciado::::::::mux0:15, soma:0, mux1:0, s:0
+Depois::::::::A: 0, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 0
+Antes::::::::A: 0, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 0
+Diferenciado::::::::mux0:15, soma:0, mux1:0, s:0
+Depois::::::::A: 0, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 0
+Antes::::::::A: 1, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 0
+Diferenciado::::::::mux0:14, soma:15, mux1:15, s:15
+Depois::::::::A: 1, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 15
+Antes::::::::A: 1, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 15
+Diferenciado::::::::mux0:14, soma:14, mux1:14, s:14
+Depois::::::::A: 1, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 15
+Antes::::::::A: 2, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 15
+Diferenciado::::::::mux0:13, soma:13, mux1:13, s:13
+Depois::::::::A: 2, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 2, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:13, soma:11, mux1:11, s:11
+Depois::::::::A: 2, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 13
+Antes::::::::A: 3, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 13
+Diferenciado::::::::mux0:12, soma:10, mux1:10, s:10
+Depois::::::::A: 3, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 3, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:12, soma:7, mux1:7, s:7
+Depois::::::::A: 3, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 10
+Antes::::::::A: 4, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 10
+Diferenciado::::::::mux0:11, soma:6, mux1:6, s:6
+Depois::::::::A: 4, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 6
+Antes::::::::A: 4, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 6
+Diferenciado::::::::mux0:11, soma:2, mux1:2, s:2
+Depois::::::::A: 4, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 6
+Antes::::::::A: 5, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 6
+Diferenciado::::::::mux0:10, soma:1, mux1:1, s:1
+Depois::::::::A: 5, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 1
+Antes::::::::A: 5, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 1
+Diferenciado::::::::mux0:10, soma:12, mux1:12, s:12
+Depois::::::::A: 5, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 1
+Antes::::::::A: 6, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 1
+Diferenciado::::::::mux0:9, soma:11, mux1:11, s:11
+Depois::::::::A: 6, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 11
+Antes::::::::A: 6, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 11
+Diferenciado::::::::mux0:9, soma:5, mux1:5, s:5
+Depois::::::::A: 6, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 11
+Antes::::::::A: 7, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 11
+Diferenciado::::::::mux0:8, soma:4, mux1:4, s:4
+Depois::::::::A: 7, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 4
+Antes::::::::A: 7, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 4
+Diferenciado::::::::mux0:8, soma:13, mux1:13, s:13
+Depois::::::::A: 7, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 4
+Antes::::::::A: 8, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 4
+Diferenciado::::::::mux0:7, soma:12, mux1:12, s:12
+Depois::::::::A: 8, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 12
+Antes::::::::A: 8, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 12
+Diferenciado::::::::mux0:7, soma:4, mux1:4, s:4
+Depois::::::::A: 8, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 12
+Antes::::::::A: 9, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 12
+Diferenciado::::::::mux0:6, soma:3, mux1:3, s:3
+Depois::::::::A: 9, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 3
+Antes::::::::A: 9, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 3
+Diferenciado::::::::mux0:6, soma:10, mux1:10, s:10
+Depois::::::::A: 9, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 3
+Antes::::::::A: 10, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 3
+Diferenciado::::::::mux0:5, soma:9, mux1:9, s:9
+Depois::::::::A: 10, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 9
+Antes::::::::A: 10, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 9
+Diferenciado::::::::mux0:5, soma:15, mux1:15, s:15
+Depois::::::::A: 10, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 9
+Antes::::::::A: 11, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 9
+Diferenciado::::::::mux0:4, soma:14, mux1:14, s:14
+Depois::::::::A: 11, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 14
+Antes::::::::A: 11, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 14
+Diferenciado::::::::mux0:4, soma:3, mux1:3, s:3
+Depois::::::::A: 11, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 14
+Antes::::::::A: 12, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 14
+Diferenciado::::::::mux0:3, soma:2, mux1:2, s:2
+Depois::::::::A: 12, sel0: 1, sel1: 1, clk: 0, c_4: 1, s: 0, acc: 2
+Antes::::::::A: 12, sel0: 1, sel1: 1, clk: 1, c_4: 1, s: 0, acc: 2
+Diferenciado::::::::mux0:3, soma:6, mux1:6, s:6
+Depois::::::::A: 12, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 2
+Antes::::::::A: 13, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 2
+Diferenciado::::::::mux0:2, soma:5, mux1:5, s:5
+Depois::::::::A: 13, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 13, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:2, soma:8, mux1:8, s:8
+Depois::::::::A: 13, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 5
+Antes::::::::A: 14, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 5
+Diferenciado::::::::mux0:1, soma:7, mux1:7, s:7
+Depois::::::::A: 14, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 7
+Antes::::::::A: 14, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 7
+Diferenciado::::::::mux0:1, soma:9, mux1:9, s:9
+Depois::::::::A: 14, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 7
+Antes::::::::A: 15, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 7
+Diferenciado::::::::mux0:0, soma:8, mux1:8, s:8
+Depois::::::::A: 15, sel0: 1, sel1: 1, clk: 0, c_4: 0, s: 0, acc: 8
+Antes::::::::A: 15, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 8
+Diferenciado::::::::mux0:0, soma:9, mux1:9, s:9
+Depois::::::::A: 15, sel0: 1, sel1: 1, clk: 1, c_4: 0, s: 0, acc: 8
+
+                   @@@@@@                          @@@    @@@
+                     @@                             @@     @ 
+                     @@                             @@@    @ 
+                     @@           @@@       @@@     @ @@   @ 
+                     @@         @@   @@   @@   @@   @ @@   @ 
+                     @@        @@     @@ @@     @@  @  @@  @ 
+                     @@        @@     @@ @@     @@  @   @@ @ 
+                     @@        @@     @@ @@     @@  @   @@ @ 
+                     @@      @ @@     @@ @@     @@  @    @@@ 
+                     @@     @   @@   @@   @@   @@   @     @@ 
+                   @@@@@@@@@@     @@@       @@@    @@@    @@ 
+
+                           Local optimization on Nets
+
+                 Alliance CAD System 5.0, loon 5.0 [2003/12/07]
+                 Copyright (c) 2000-2020,        ASIM/LIP6/UPMC
+                 Author(s):                     Fran\E7ois Donnet
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	MBK_IN_LO	: vst
+	MBK_OUT_LO	: vst
+	MBK_TARGET_LIB	: /usr/alliance/cells/sxlib
+
+Reading default parameter...
+100% delay optimization
+Reading file 'adac_vasy_boom_3_50_100_boog_2.vst'...
+Reading lib '/usr/alliance/cells/sxlib'...
+Capacitances on file 'adac_vasy_boom_3_50_100_boog_2.vst'...
+Delays on file 'adac_vasy_boom_3_50_100_boog_2.vst'...4380 ps
+Area on file 'adac_vasy_boom_3_50_100_boog_2.vst'...106750 lamda\B2 (with over-cell routing)
+Details...
+	xr2_x1: 13 (27%)
+	inv_x2: 12 (8%)
+	na2_x1: 6 (5%)
+	no2_x1: 5 (4%)
+	oa2a22_x2: 5 (10%)
+	buf_x2: 4 (3%)
+	sff1_x4: 4 (16%)
+	na3_x1: 2 (2%)
+	o2_x2: 2 (2%)
+	an12_x1: 2 (2%)
+	oa2ao222_x2: 2 (4%)
+	a2_x2: 2 (2%)
+	oa22_x2: 1 (1%)
+	o3_x2: 1 (1%)
+	noa22_x1: 1 (1%)
+	a3_x2: 1 (1%)
+	mx3_x2: 1 (3%)
+	Total: 64
+Worst RC on file 'adac_vasy_boom_3_50_100_boog_2.vst'...127 ps
+Inserting buffers on critical path for file 'adac_vasy_boom_3_50_100_boog_2_loon_4.vst'...1 buffer inserted -> 4325 ps
+Improving RC on critical path for file 'adac_vasy_boom_3_50_100_boog_2_loon_4.vst'...4238 ps
+Improving all RC for file 'adac_vasy_boom_3_50_100_boog_2_loon_4.vst'...
+Worst RC on file 'adac_vasy_boom_3_50_100_boog_2_loon_4.vst'...127 ps
+Area on file 'adac_vasy_boom_3_50_100_boog_2_loon_4.vst'...109250 lamda\B2 (with over-cell routing)
+Details...
+	xr2_x1: 13 (26%)
+	inv_x2: 10 (6%)
+	na2_x1: 6 (5%)
+	no2_x1: 5 (4%)
+	oa2a22_x2: 5 (10%)
+	buf_x2: 4 (3%)
+	sff1_x4: 4 (16%)
+	na3_x1: 2 (2%)
+	o2_x2: 2 (2%)
+	an12_x1: 2 (2%)
+	oa2ao222_x2: 2 (4%)
+	inv_x4: 2 (1%)
+	a2_x2: 2 (2%)
+	buf_x8: 1 (1%)
+	oa22_x2: 1 (1%)
+	o3_x2: 1 (1%)
+	noa22_x1: 1 (1%)
+	a3_x2: 1 (1%)
+	mx3_x2: 1 (2%)
+	Total: 65
+Critical path (no warranty)...4238 ps from 'acumulador 0' to 's 3'
+Saving file 'adac_vasy_boom_3_50_100_boog_2_loon_4.vst'...
+Saving critical path in xsch color file 'adac_vasy_boom_3_50_100_boog_2_loon_4.xsc'...
+End of loon...
+
+
+                    @@@@   @@@@                   @@@       
+                     @@     @                      @@       
+                      @@   @                       @@       
+                       @@ @      @@@@@@     @@@    @@ @@@   
+                        @@      @@    @   @@   @@  @@@  @@  
+                        @@      @@@      @@     @  @@    @@ 
+                        @@@      @@@@    @@        @@    @@ 
+                       @  @@       @@@@  @@        @@    @@ 
+                      @    @@   @    @@@ @@     @  @@    @@ 
+                     @      @@  @@    @@  @@   @@  @@    @@ 
+                    @@@    @@@@ @ @@@@@     @@@   @@@@  @@@@
+
+                           Graphical Schematic Viewer
+
+                 Alliance CAD System 5.0,               xsch 5.0
+                 Copyright (c) 2000-2020,         ASIM/LIP6/UPMC
+                 Author(s):                      Ludovic Jacomme
+                 Contributor(s): B.Miramond, F.Petrot, S.Picault
+                 E-mail        :     alliance-users@asim.lip6.fr
+
+
+                            @@@         @@@@ @ @@@@@@@   
+                          @@   @@     @@    @@   @@   @@ 
+                         @@     @@   @@      @   @@    @@
+                        @@       @@ @@       @   @@    @@
+                        @@       @@ @@           @@   @@ 
+                        @@       @@ @@           @@@@@   
+                        @@       @@ @@           @@      
+                        @@       @@ @@           @@      
+                         @@     @@   @@      @   @@      
+                          @@   @@     @@    @@   @@      
+                            @@@         @@@@   @@@@@@    
+
+                           Placer for Standards Cells
+
+                   Alliance CAD System 5.0,            ocp 5.0
+                   Copyright (c) 2001-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+ o OCP Warning: strange net detected ...: 
+ o Net:
+ o not_a 1 
+ o is not connected ......
+ o Special Net detected : vss
+ o Special Net detected : vdd
+ o Placer Warning : Net not_a 1 is not connected...
+................................
+Ocp : placement finished
+
+                    @@@@ @                                @@@@  
+                  @@    @@                                  @@  
+                 @@      @                                  @@  
+                @@           @@@ @@@    @@@@      @@@@      @@  
+                @@            @@@  @@  @@   @    @@   @     @@  
+                @@     @@@@@  @@   @@  @@   @@   @@   @@    @@  
+                @@     @ @@   @@         @@@@@     @@@@@    @@  
+                @@    @  @@   @@       @@   @@   @@   @@    @@  
+                 @@      @@   @@      @@    @@  @@    @@    @@  
+                  @@    @@    @@      @@   @@@  @@   @@@    @@  
+                    @@@@     @@@@      @@@@  @@  @@@@  @@ @@@@@@
+
+                              Graphic layout editor
+
+                  Alliance CAD System 5.0,            graal 5.0
+                  Copyright (c) 1999-2020,       ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Frederic Venot
+                  E-mail        :   alliance-users@asim.lip6.fr
+
+
+                   @@@    @@@           @@@@@@@              
+                    @@     @              @@   @@            
+                    @@@    @              @@    @@           
+                    @ @@   @    @@@@@     @@    @@     @@@   
+                    @ @@   @   @     @    @@   @@    @@   @@ 
+                    @  @@  @  @@     @@   @@@@@     @@     @@
+                    @   @@ @  @@@@@@@@@   @@  @@    @@     @@
+                    @   @@ @  @@          @@   @@   @@     @@
+                    @    @@@  @@      @   @@   @@   @@     @@
+                    @     @@   @@    @@   @@    @@   @@   @@ 
+                   @@@    @@     @@@@   @@@@@   @@@    @@@   
+
+                               Negotiating Router
+
+                   Alliance CAD System 5.0,           nero 5.0
+                   Copyright (c) 2002-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+                    @@@@ @                                @@@@  
+                  @@    @@                                  @@  
+                 @@      @                                  @@  
+                @@           @@@ @@@    @@@@      @@@@      @@  
+                @@            @@@  @@  @@   @    @@   @     @@  
+                @@     @@@@@  @@   @@  @@   @@   @@   @@    @@  
+                @@     @ @@   @@         @@@@@     @@@@@    @@  
+                @@    @  @@   @@       @@   @@   @@   @@    @@  
+                 @@      @@   @@      @@    @@  @@    @@    @@  
+                  @@    @@    @@      @@   @@@  @@   @@@    @@  
+                    @@@@     @@@@      @@@@  @@  @@@@  @@ @@@@@@
+
+                              Graphic layout editor
+
+                  Alliance CAD System 5.0,            graal 5.0
+                  Copyright (c) 1999-2020,       ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Frederic Venot
+                  E-mail        :   alliance-users@asim.lip6.fr
+
+al
+
+               @@@@ @                                                 
+             @@    @@                                                 
+            @@      @                                                 
+           @@       @    @@@    @@@  @@@@    @@@@@@   @@@@    @@@ @@@ 
+           @@          @@   @@   @@    @@   @@  @@   @@   @    @@@  @@
+           @@         @@     @@  @@    @@   @   @@   @@   @@   @@   @@
+           @@         @@     @@  @@    @@   @   @      @@@@@   @@     
+           @@         @@     @@  @@    @@    @@@     @@   @@   @@     
+            @@      @ @@     @@  @@    @@   @@      @@    @@   @@     
+             @@    @@  @@   @@   @@   @@@   @@@@@@  @@   @@@   @@     
+               @@@@      @@@      @@@@  @@ @@   @@@  @@@@  @@ @@@@    
+                                            @     @                   
+                                             @@@@@                    
+
+                       Netlist extractor ... formerly Lynx
+
+                  Alliance CAD System 5.0,         cougar 1.21
+                  Copyright (c) 1998-2020,      ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Gregoire Avot
+                  Contributor(s):             Picault Stephane
+                  E-mail        :  alliance-users@asim.lip6.fr
+
+
+	---> Extract symbolic figure adac_core_roteado
+	<--- done !
+
+	---> Total extracted capacitance
+	<--- 0.0pF
+al
+-rw-rw-r-- 1 magic magic 14930 Apr  4 20:03 adac_core_roteado_extra.al
+
+                       @@@@@@      @@@@    @@@ @@@@   @@@@
+                         @@         @@      @   @@     @  
+                         @@         @@      @    @@   @   
+                         @@          @@    @      @@ @    
+                         @@          @@    @       @@     
+                         @@           @@  @        @@     
+                         @@           @@  @        @@@    
+                         @@            @@@        @  @@   
+                         @@      @     @@@       @    @@  
+                         @@     @       @       @      @@ 
+                       @@@@@@@@@@       @      @@@    @@@@
+
+                             Gate Netlist Comparator
+
+                   Alliance CAD System 5.0,            lvx 1.5
+                   Copyright (c) 1992-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+
+***** Loading adac_core_roteado_extra (al)...
+
+***** Loading adac_core (vst)...
+
+
+***** Compare Terminals .............
+***** O.K.	(0 sec)
+
+***** Compare Instances ...........
+***** O.K.	(0 sec)
+
+***** Compare Connections ...............
+***** O.K.	(0 sec)
+
+===== Terminals .......... 14    
+===== Instances .......... 65    
+===== Connectors ......... 347   
+
+
+***** Netlists are Identical. *****	(0 sec)
+
+
+             @        @@@@ @     @                            @@@@@@@@@@ 
+             @       @    @@    @@@                           @   @@   @ 
+            @@@     @@     @     @                           @    @@    @
+            @@@     @@@              @@@ @@ @@@   @@@  @@@@       @@     
+           @  @@     @@@@     @@@@    @@@ @@  @@   @@    @@       @@     
+           @  @@       @@@@     @@    @@  @@  @@   @@    @@       @@     
+          @    @@        @@@    @@    @@  @@  @@   @@    @@       @@     
+          @@@@@@@   @      @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@     @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@@    @    @@    @@  @@  @@   @@   @@@       @@     
+       @@@@    @@@@ @  @@@@   @@@@@@ @@@@ @@@ @@@   @@@@  @@    @@@@@@   
+
+                                A SIMUlation Tool
+
+                 Alliance CAD System 5.0,          asimut v3.02
+                 Copyright (c) 1991...1999-2020, ASIM/LIP6/UPMC
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	Paris, France, Europe, Earth, Solar system, Milky Way, ...
+initializing ...
+searching `adac_core_roteado_extra` ...
+compiling `adac_core_roteado_extra` (Structural) ...
+
+flattening the root figure ...
+
+searching `rowend_x0` ...
+BEH : Compiling `rowend_x0.vbe` (Behaviour) ...
+making GEX ...
+
+searching `tie_x0` ...
+BEH : Compiling `tie_x0.vbe` (Behaviour) ...
+making GEX ...
+
+searching `mx3_x2` ...
+BEH : Compiling `mx3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o3_x2` ...
+BEH : Compiling `o3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2ao222_x2` ...
+BEH : Compiling `oa2ao222_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na3_x1` ...
+BEH : Compiling `na3_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `a3_x2` ...
+BEH : Compiling `a3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `sff1_x4` ...
+BEH : Compiling `sff1_x4.vbe` (Behaviour) ...
+making GEX ...
+
+searching `buf_x8` ...
+BEH : Compiling `buf_x8.vbe` (Behaviour) ...
+making GEX ...
+
+searching `xr2_x1` ...
+BEH : Compiling `xr2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa22_x2` ...
+BEH : Compiling `oa22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2a22_x2` ...
+BEH : Compiling `oa2a22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o2_x2` ...
+BEH : Compiling `o2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `a2_x2` ...
+BEH : Compiling `a2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `noa22_x1` ...
+BEH : Compiling `noa22_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `no2_x1` ...
+BEH : Compiling `no2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `an12_x1` ...
+BEH : Compiling `an12_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `inv_x4` ...
+BEH : Compiling `inv_x4.vbe` (Behaviour) ...
+making GEX ...
+
+searching `buf_x2` ...
+BEH : Compiling `buf_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na2_x1` ...
+BEH : Compiling `na2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `inv_x2` ...
+BEH : Compiling `inv_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching pattern file : `adac_com_atraso_13000` ...
+restoring ...
+
+linking ...
+executing ...
+###----- processing pattern 0 : 0 ps -----###
+###----- processing pattern 1 : 13000 ps -----###
+###----- processing pattern 2 : 26000 ps -----###
+###----- processing pattern 3 : 39000 ps -----###
+###----- processing pattern 4 : 52000 ps -----###
+###----- processing pattern 5 : 65000 ps -----###
+###----- processing pattern 6 : 78000 ps -----###
+###----- processing pattern 7 : 91000 ps -----###
+###----- processing pattern 8 : 104000 ps -----###
+###----- processing pattern 9 : 117000 ps -----###
+###----- processing pattern 10 : 130000 ps -----###
+###----- processing pattern 11 : 143000 ps -----###
+###----- processing pattern 12 : 156000 ps -----###
+###----- processing pattern 13 : 169000 ps -----###
+###----- processing pattern 14 : 182000 ps -----###
+###----- processing pattern 15 : 195000 ps -----###
+###----- processing pattern 16 : 208000 ps -----###
+###----- processing pattern 17 : 221000 ps -----###
+###----- processing pattern 18 : 234000 ps -----###
+###----- processing pattern 19 : 247000 ps -----###
+###----- processing pattern 20 : 260000 ps -----###
+###----- processing pattern 21 : 273000 ps -----###
+###----- processing pattern 22 : 286000 ps -----###
+###----- processing pattern 23 : 299000 ps -----###
+###----- processing pattern 24 : 312000 ps -----###
+###----- processing pattern 25 : 325000 ps -----###
+###----- processing pattern 26 : 338000 ps -----###
+###----- processing pattern 27 : 351000 ps -----###
+###----- processing pattern 28 : 364000 ps -----###
+###----- processing pattern 29 : 377000 ps -----###
+###----- processing pattern 30 : 390000 ps -----###
+###----- processing pattern 31 : 403000 ps -----###
+###----- processing pattern 32 : 416000 ps -----###
+###----- processing pattern 33 : 429000 ps -----###
+###----- processing pattern 34 : 442000 ps -----###
+###----- processing pattern 35 : 455000 ps -----###
+###----- processing pattern 36 : 468000 ps -----###
+###----- processing pattern 37 : 481000 ps -----###
+###----- processing pattern 38 : 494000 ps -----###
+###----- processing pattern 39 : 507000 ps -----###
+###----- processing pattern 40 : 520000 ps -----###
+###----- processing pattern 41 : 533000 ps -----###
+###----- processing pattern 42 : 546000 ps -----###
+###----- processing pattern 43 : 559000 ps -----###
+###----- processing pattern 44 : 572000 ps -----###
+###----- processing pattern 45 : 585000 ps -----###
+###----- processing pattern 46 : 598000 ps -----###
+###----- processing pattern 47 : 611000 ps -----###
+###----- processing pattern 48 : 624000 ps -----###
+###----- processing pattern 49 : 637000 ps -----###
+###----- processing pattern 50 : 650000 ps -----###
+###----- processing pattern 51 : 663000 ps -----###
+###----- processing pattern 52 : 676000 ps -----###
+###----- processing pattern 53 : 689000 ps -----###
+###----- processing pattern 54 : 702000 ps -----###
+###----- processing pattern 55 : 715000 ps -----###
+###----- processing pattern 56 : 728000 ps -----###
+###----- processing pattern 57 : 741000 ps -----###
+###----- processing pattern 58 : 754000 ps -----###
+###----- processing pattern 59 : 767000 ps -----###
+###----- processing pattern 60 : 780000 ps -----###
+###----- processing pattern 61 : 793000 ps -----###
+###----- processing pattern 62 : 806000 ps -----###
+###----- processing pattern 63 : 819000 ps -----###
+###----- processing pattern 64 : 832000 ps -----###
+###----- processing pattern 65 : 845000 ps -----###
+###----- processing pattern 66 : 858000 ps -----###
+###----- processing pattern 67 : 871000 ps -----###
+###----- processing pattern 68 : 884000 ps -----###
+###----- processing pattern 69 : 897000 ps -----###
+###----- processing pattern 70 : 910000 ps -----###
+###----- processing pattern 71 : 923000 ps -----###
+###----- processing pattern 72 : 936000 ps -----###
+###----- processing pattern 73 : 949000 ps -----###
+###----- processing pattern 74 : 962000 ps -----###
+###----- processing pattern 75 : 975000 ps -----###
+###----- processing pattern 76 : 988000 ps -----###
+###----- processing pattern 77 : 1001000 ps -----###
+###----- processing pattern 78 : 1014000 ps -----###
+###----- processing pattern 79 : 1027000 ps -----###
+###----- processing pattern 80 : 1040000 ps -----###
+###----- processing pattern 81 : 1053000 ps -----###
+###----- processing pattern 82 : 1066000 ps -----###
+###----- processing pattern 83 : 1079000 ps -----###
+###----- processing pattern 84 : 1092000 ps -----###
+###----- processing pattern 85 : 1105000 ps -----###
+###----- processing pattern 86 : 1118000 ps -----###
+###----- processing pattern 87 : 1131000 ps -----###
+###----- processing pattern 88 : 1144000 ps -----###
+###----- processing pattern 89 : 1157000 ps -----###
+###----- processing pattern 90 : 1170000 ps -----###
+###----- processing pattern 91 : 1183000 ps -----###
+###----- processing pattern 92 : 1196000 ps -----###
+###----- processing pattern 93 : 1209000 ps -----###
+###----- processing pattern 94 : 1222000 ps -----###
+###----- processing pattern 95 : 1235000 ps -----###
+###----- processing pattern 96 : 1248000 ps -----###
+###----- processing pattern 97 : 1261000 ps -----###
+###----- processing pattern 98 : 1274000 ps -----###
+###----- processing pattern 99 : 1287000 ps -----###
+###----- processing pattern 100 : 1300000 ps -----###
+###----- processing pattern 101 : 1313000 ps -----###
+###----- processing pattern 102 : 1326000 ps -----###
+###----- processing pattern 103 : 1339000 ps -----###
+###----- processing pattern 104 : 1352000 ps -----###
+###----- processing pattern 105 : 1365000 ps -----###
+###----- processing pattern 106 : 1378000 ps -----###
+###----- processing pattern 107 : 1391000 ps -----###
+###----- processing pattern 108 : 1404000 ps -----###
+###----- processing pattern 109 : 1417000 ps -----###
+###----- processing pattern 110 : 1430000 ps -----###
+###----- processing pattern 111 : 1443000 ps -----###
+###----- processing pattern 112 : 1456000 ps -----###
+###----- processing pattern 113 : 1469000 ps -----###
+###----- processing pattern 114 : 1482000 ps -----###
+###----- processing pattern 115 : 1495000 ps -----###
+###----- processing pattern 116 : 1508000 ps -----###
+###----- processing pattern 117 : 1521000 ps -----###
+###----- processing pattern 118 : 1534000 ps -----###
+###----- processing pattern 119 : 1547000 ps -----###
+###----- processing pattern 120 : 1560000 ps -----###
+###----- processing pattern 121 : 1573000 ps -----###
+###----- processing pattern 122 : 1586000 ps -----###
+###----- processing pattern 123 : 1599000 ps -----###
+###----- processing pattern 124 : 1612000 ps -----###
+###----- processing pattern 125 : 1625000 ps -----###
+###----- processing pattern 126 : 1638000 ps -----###
+###----- processing pattern 127 : 1651000 ps -----###
+###----- processing pattern 128 : 1664000 ps -----###
+###----- processing pattern 129 : 1677000 ps -----###
+###----- processing pattern 130 : 1690000 ps -----###
+###----- processing pattern 131 : 1703000 ps -----###
+###----- processing pattern 132 : 1716000 ps -----###
+###----- processing pattern 133 : 1729000 ps -----###
+###----- processing pattern 134 : 1742000 ps -----###
+###----- processing pattern 135 : 1755000 ps -----###
+###----- processing pattern 136 : 1768000 ps -----###
+###----- processing pattern 137 : 1781000 ps -----###
+###----- processing pattern 138 : 1794000 ps -----###
+###----- processing pattern 139 : 1807000 ps -----###
+###----- processing pattern 140 : 1820000 ps -----###
+###----- processing pattern 141 : 1833000 ps -----###
+###----- processing pattern 142 : 1846000 ps -----###
+###----- processing pattern 143 : 1859000 ps -----###
+###----- processing pattern 144 : 1872000 ps -----###
+###----- processing pattern 145 : 1885000 ps -----###
+###----- processing pattern 146 : 1898000 ps -----###
+###----- processing pattern 147 : 1911000 ps -----###
+###----- processing pattern 148 : 1924000 ps -----###
+###----- processing pattern 149 : 1937000 ps -----###
+###----- processing pattern 150 : 1950000 ps -----###
+###----- processing pattern 151 : 1963000 ps -----###
+###----- processing pattern 152 : 1976000 ps -----###
+###----- processing pattern 153 : 1989000 ps -----###
+###----- processing pattern 154 : 2002000 ps -----###
+###----- processing pattern 155 : 2015000 ps -----###
+###----- processing pattern 156 : 2028000 ps -----###
+###----- processing pattern 157 : 2041000 ps -----###
+###----- processing pattern 158 : 2054000 ps -----###
+###----- processing pattern 159 : 2067000 ps -----###
+###----- processing pattern 160 : 2080000 ps -----###
+###----- processing pattern 161 : 2093000 ps -----###
+###----- processing pattern 162 : 2106000 ps -----###
+###----- processing pattern 163 : 2119000 ps -----###
+###----- processing pattern 164 : 2132000 ps -----###
+###----- processing pattern 165 : 2145000 ps -----###
+###----- processing pattern 166 : 2158000 ps -----###
+###----- processing pattern 167 : 2171000 ps -----###
+###----- processing pattern 168 : 2184000 ps -----###
+###----- processing pattern 169 : 2197000 ps -----###
+###----- processing pattern 170 : 2210000 ps -----###
+###----- processing pattern 171 : 2223000 ps -----###
+###----- processing pattern 172 : 2236000 ps -----###
+###----- processing pattern 173 : 2249000 ps -----###
+###----- processing pattern 174 : 2262000 ps -----###
+###----- processing pattern 175 : 2275000 ps -----###
+###----- processing pattern 176 : 2288000 ps -----###
+###----- processing pattern 177 : 2301000 ps -----###
+###----- processing pattern 178 : 2314000 ps -----###
+###----- processing pattern 179 : 2327000 ps -----###
+###----- processing pattern 180 : 2340000 ps -----###
+###----- processing pattern 181 : 2353000 ps -----###
+###----- processing pattern 182 : 2366000 ps -----###
+###----- processing pattern 183 : 2379000 ps -----###
+###----- processing pattern 184 : 2392000 ps -----###
+###----- processing pattern 185 : 2405000 ps -----###
+###----- processing pattern 186 : 2418000 ps -----###
+###----- processing pattern 187 : 2431000 ps -----###
+###----- processing pattern 188 : 2444000 ps -----###
+###----- processing pattern 189 : 2457000 ps -----###
+###----- processing pattern 190 : 2470000 ps -----###
+###----- processing pattern 191 : 2483000 ps -----###
+###----- processing pattern 192 : 2496000 ps -----###
+###----- processing pattern 193 : 2509000 ps -----###
+###----- processing pattern 194 : 2522000 ps -----###
+###----- processing pattern 195 : 2535000 ps -----###
+###----- processing pattern 196 : 2548000 ps -----###
+###----- processing pattern 197 : 2561000 ps -----###
+###----- processing pattern 198 : 2574000 ps -----###
+###----- processing pattern 199 : 2587000 ps -----###
+###----- processing pattern 200 : 2600000 ps -----###
+###----- processing pattern 201 : 2613000 ps -----###
+###----- processing pattern 202 : 2626000 ps -----###
+###----- processing pattern 203 : 2639000 ps -----###
+###----- processing pattern 204 : 2652000 ps -----###
+###----- processing pattern 205 : 2665000 ps -----###
+###----- processing pattern 206 : 2678000 ps -----###
+###----- processing pattern 207 : 2691000 ps -----###
+###----- processing pattern 208 : 2704000 ps -----###
+###----- processing pattern 209 : 2717000 ps -----###
+###----- processing pattern 210 : 2730000 ps -----###
+###----- processing pattern 211 : 2743000 ps -----###
+###----- processing pattern 212 : 2756000 ps -----###
+###----- processing pattern 213 : 2769000 ps -----###
+###----- processing pattern 214 : 2782000 ps -----###
+###----- processing pattern 215 : 2795000 ps -----###
+###----- processing pattern 216 : 2808000 ps -----###
+###----- processing pattern 217 : 2821000 ps -----###
+###----- processing pattern 218 : 2834000 ps -----###
+###----- processing pattern 219 : 2847000 ps -----###
+###----- processing pattern 220 : 2860000 ps -----###
+###----- processing pattern 221 : 2873000 ps -----###
+###----- processing pattern 222 : 2886000 ps -----###
+###----- processing pattern 223 : 2899000 ps -----###
+###----- processing pattern 224 : 2912000 ps -----###
+###----- processing pattern 225 : 2925000 ps -----###
+###----- processing pattern 226 : 2938000 ps -----###
+###----- processing pattern 227 : 2951000 ps -----###
+###----- processing pattern 228 : 2964000 ps -----###
+###----- processing pattern 229 : 2977000 ps -----###
+###----- processing pattern 230 : 2990000 ps -----###
+###----- processing pattern 231 : 3003000 ps -----###
+###----- processing pattern 232 : 3016000 ps -----###
+###----- processing pattern 233 : 3029000 ps -----###
+###----- processing pattern 234 : 3042000 ps -----###
+###----- processing pattern 235 : 3055000 ps -----###
+###----- processing pattern 236 : 3068000 ps -----###
+###----- processing pattern 237 : 3081000 ps -----###
+###----- processing pattern 238 : 3094000 ps -----###
+###----- processing pattern 239 : 3107000 ps -----###
+###----- processing pattern 240 : 3120000 ps -----###
+###----- processing pattern 241 : 3133000 ps -----###
+###----- processing pattern 242 : 3146000 ps -----###
+###----- processing pattern 243 : 3159000 ps -----###
+###----- processing pattern 244 : 3172000 ps -----###
+###----- processing pattern 245 : 3185000 ps -----###
+###----- processing pattern 246 : 3198000 ps -----###
+###----- processing pattern 247 : 3211000 ps -----###
+###----- processing pattern 248 : 3224000 ps -----###
+###----- processing pattern 249 : 3237000 ps -----###
+###----- processing pattern 250 : 3250000 ps -----###
+###----- processing pattern 251 : 3263000 ps -----###
+###----- processing pattern 252 : 3276000 ps -----###
+###----- processing pattern 253 : 3289000 ps -----###
+###----- processing pattern 254 : 3302000 ps -----###
+###----- processing pattern 255 : 3315000 ps -----###
+
+                    @@@@ @                                @@@@  
+                  @@    @@                                  @@  
+                 @@      @                                  @@  
+                @@           @@@ @@@    @@@@      @@@@      @@  
+                @@            @@@  @@  @@   @    @@   @     @@  
+                @@     @@@@@  @@   @@  @@   @@   @@   @@    @@  
+                @@     @ @@   @@         @@@@@     @@@@@    @@  
+                @@    @  @@   @@       @@   @@   @@   @@    @@  
+                 @@      @@   @@      @@    @@  @@    @@    @@  
+                  @@    @@    @@      @@   @@@  @@   @@@    @@  
+                    @@@@     @@@@      @@@@  @@  @@@@  @@ @@@@@@
+
+                              Graphic layout editor
+
+                  Alliance CAD System 5.0,            graal 5.0
+                  Copyright (c) 1999-2020,       ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Frederic Venot
+                  E-mail        :   alliance-users@asim.lip6.fr
+
+vst
+
+             @@@@ @                        @@@@@@         @   @@@      
+           @@    @@                          @@          @@@   @@      
+          @@      @                          @@           @    @@      
+         @@             @@@@@   @@@ @@@      @@                @@ @@   
+         @@            @     @   @@@   @     @@        @@@@    @@@  @@ 
+         @@     @@@@@ @@     @@  @@    @@    @@          @@    @@    @@
+         @@     @ @@  @@@@@@@@@  @@    @@    @@          @@    @@    @@
+         @@    @  @@  @@         @@    @@    @@          @@    @@    @@
+          @@      @@  @@      @  @@    @@    @@      @   @@    @@    @@
+           @@    @@    @@    @@  @@    @@    @@     @    @@    @@@  @@ 
+             @@@@        @@@@   @@@@  @@@@ @@@@@@@@@@  @@@@@@ @@@ @@   
+
+                         Procedural Generation Language
+
+                   Alliance CAD System 5.0,         genlib 4.0
+                   Copyright (c) 1991-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+vst
+
+                    @@@@   @@@@                   @@@       
+                     @@     @                      @@       
+                      @@   @                       @@       
+                       @@ @      @@@@@@     @@@    @@ @@@   
+                        @@      @@    @   @@   @@  @@@  @@  
+                        @@      @@@      @@     @  @@    @@ 
+                        @@@      @@@@    @@        @@    @@ 
+                       @  @@       @@@@  @@        @@    @@ 
+                      @    @@   @    @@@ @@     @  @@    @@ 
+                     @      @@  @@    @@  @@   @@  @@    @@ 
+                    @@@    @@@@ @ @@@@@     @@@   @@@@  @@@@
+
+                           Graphical Schematic Viewer
+
+                 Alliance CAD System 5.0,               xsch 5.0
+                 Copyright (c) 2000-2020,         ASIM/LIP6/UPMC
+                 Author(s):                      Ludovic Jacomme
+                 Contributor(s): B.Miramond, F.Petrot, S.Picault
+                 E-mail        :     alliance-users@asim.lip6.fr
+
+	o reading netlists, layout views of core and pads.
+
+*** mbk error *** alcloadphfig : unable to open file : adac_core.ap .
+
+                   @@@@@@@        @                  @@@@ @  
+                     @@   @@     @@@               @@    @@  
+                     @@    @@     @               @@      @  
+                     @@    @@         @@@ @@@    @@          
+                     @@   @@   @@@@    @@@   @   @@          
+                     @@@@@       @@    @@    @@  @@     @@@@@
+                     @@  @@      @@    @@    @@  @@     @ @@ 
+                     @@   @@     @@    @@    @@  @@    @  @@ 
+                     @@   @@     @@    @@    @@   @@      @@ 
+                     @@    @@    @@    @@    @@    @@    @@  
+                   @@@@@   @@@ @@@@@@ @@@@  @@@@     @@@@    
+
+                                 PAD ring router
+
+                   Alliance CAD System 5.0,           ring 5.0
+                   Copyright (c) 1991-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+*** mbk error *** alcloadphfig : unable to open file : adac_chip.ap .
+
+               @@@@ @                                                 
+             @@    @@                                                 
+            @@      @                                                 
+           @@       @    @@@    @@@  @@@@    @@@@@@   @@@@    @@@ @@@ 
+           @@          @@   @@   @@    @@   @@  @@   @@   @    @@@  @@
+           @@         @@     @@  @@    @@   @   @@   @@   @@   @@   @@
+           @@         @@     @@  @@    @@   @   @      @@@@@   @@     
+           @@         @@     @@  @@    @@    @@@     @@   @@   @@     
+            @@      @ @@     @@  @@    @@   @@      @@    @@   @@     
+             @@    @@  @@   @@   @@   @@@   @@@@@@  @@   @@@   @@     
+               @@@@      @@@      @@@@  @@ @@   @@@  @@@@  @@ @@@@    
+                                            @     @                   
+                                             @@@@@                    
+
+                       Netlist extractor ... formerly Lynx
+
+                  Alliance CAD System 5.0,         cougar 1.21
+                  Copyright (c) 1998-2020,      ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Gregoire Avot
+                  Contributor(s):             Picault Stephane
+                  E-mail        :  alliance-users@asim.lip6.fr
+
+
+	---> Extract symbolic figure adac_chip
+
+                    @@@@ @                                @@@@  
+                  @@    @@                                  @@  
+                 @@      @                                  @@  
+                @@           @@@ @@@    @@@@      @@@@      @@  
+                @@            @@@  @@  @@   @    @@   @     @@  
+                @@     @@@@@  @@   @@  @@   @@   @@   @@    @@  
+                @@     @ @@   @@         @@@@@     @@@@@    @@  
+                @@    @  @@   @@       @@   @@   @@   @@    @@  
+                 @@      @@   @@      @@    @@  @@    @@    @@  
+                  @@    @@    @@      @@   @@@  @@   @@@    @@  
+                    @@@@     @@@@      @@@@  @@  @@@@  @@ @@@@@@
+
+                              Graphic layout editor
+
+                  Alliance CAD System 5.0,            graal 5.0
+                  Copyright (c) 1999-2020,       ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Frederic Venot
+                  E-mail        :   alliance-users@asim.lip6.fr
+
+vst
+
+             @@@@ @                        @@@@@@         @   @@@      
+           @@    @@                          @@          @@@   @@      
+          @@      @                          @@           @    @@      
+         @@             @@@@@   @@@ @@@      @@                @@ @@   
+         @@            @     @   @@@   @     @@        @@@@    @@@  @@ 
+         @@     @@@@@ @@     @@  @@    @@    @@          @@    @@    @@
+         @@     @ @@  @@@@@@@@@  @@    @@    @@          @@    @@    @@
+         @@    @  @@  @@         @@    @@    @@          @@    @@    @@
+          @@      @@  @@      @  @@    @@    @@      @   @@    @@    @@
+           @@    @@    @@    @@  @@    @@    @@     @    @@    @@@  @@ 
+             @@@@        @@@@   @@@@  @@@@ @@@@@@@@@@  @@@@@@ @@@ @@   
+
+                         Procedural Generation Language
+
+                   Alliance CAD System 5.0,         genlib 4.0
+                   Copyright (c) 1991-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+vst
+
+                    @@@@   @@@@                   @@@       
+                     @@     @                      @@       
+                      @@   @                       @@       
+                       @@ @      @@@@@@     @@@    @@ @@@   
+                        @@      @@    @   @@   @@  @@@  @@  
+                        @@      @@@      @@     @  @@    @@ 
+                        @@@      @@@@    @@        @@    @@ 
+                       @  @@       @@@@  @@        @@    @@ 
+                      @    @@   @    @@@ @@     @  @@    @@ 
+                     @      @@  @@    @@  @@   @@  @@    @@ 
+                    @@@    @@@@ @ @@@@@     @@@   @@@@  @@@@
+
+                           Graphical Schematic Viewer
+
+                 Alliance CAD System 5.0,               xsch 5.0
+                 Copyright (c) 2000-2020,         ASIM/LIP6/UPMC
+                 Author(s):                      Ludovic Jacomme
+                 Contributor(s): B.Miramond, F.Petrot, S.Picault
+                 E-mail        :     alliance-users@asim.lip6.fr
+
+	o reading netlists, layout views of core and pads.
+	o reading file of parameters, including the placements of pads.
+	o making equipotential list.
+	o making the first placement of pads.
+	o filling data internal structures.
+	o reading the connectors positions of the core.
+	o computing the best placement of the pads.
+	o reading the connectors positions of the pads.
+	o routing deportation of connectors.
+	o routing supply tracks.
+	o routing equipotentials.
+	o compressing channels.
+	o saving in MBK data structure.
+lucky, no error.
+
+                   @@@@@@@        @                  @@@@ @  
+                     @@   @@     @@@               @@    @@  
+                     @@    @@     @               @@      @  
+                     @@    @@         @@@ @@@    @@          
+                     @@   @@   @@@@    @@@   @   @@          
+                     @@@@@       @@    @@    @@  @@     @@@@@
+                     @@  @@      @@    @@    @@  @@     @ @@ 
+                     @@   @@     @@    @@    @@  @@    @  @@ 
+                     @@   @@     @@    @@    @@   @@      @@ 
+                     @@    @@    @@    @@    @@    @@    @@  
+                   @@@@@   @@@ @@@@@@ @@@@  @@@@     @@@@    
+
+                                 PAD ring router
+
+                   Alliance CAD System 5.0,           ring 5.0
+                   Copyright (c) 1991-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+               @@@@ @                                                 
+             @@    @@                                                 
+            @@      @                                                 
+           @@       @    @@@    @@@  @@@@    @@@@@@   @@@@    @@@ @@@ 
+           @@          @@   @@   @@    @@   @@  @@   @@   @    @@@  @@
+           @@         @@     @@  @@    @@   @   @@   @@   @@   @@   @@
+           @@         @@     @@  @@    @@   @   @      @@@@@   @@     
+           @@         @@     @@  @@    @@    @@@     @@   @@   @@     
+            @@      @ @@     @@  @@    @@   @@      @@    @@   @@     
+             @@    @@  @@   @@   @@   @@@   @@@@@@  @@   @@@   @@     
+               @@@@      @@@      @@@@  @@ @@   @@@  @@@@  @@ @@@@    
+                                            @     @                   
+                                             @@@@@                    
+
+                       Netlist extractor ... formerly Lynx
+
+                  Alliance CAD System 5.0,         cougar 1.21
+                  Copyright (c) 1998-2020,      ASIM/LIP6/UPMC
+                  Author(s): Ludovic Jacomme and Gregoire Avot
+                  Contributor(s):             Picault Stephane
+                  E-mail        :  alliance-users@asim.lip6.fr
+
+
+	---> Extract symbolic figure adac_chip
+	<--- done !
+
+	---> Total extracted capacitance
+	<--- 0.0pF
+
+                       @@@@@@      @@@@    @@@ @@@@   @@@@
+                         @@         @@      @   @@     @  
+                         @@         @@      @    @@   @   
+                         @@          @@    @      @@ @    
+                         @@          @@    @       @@     
+                         @@           @@  @        @@     
+                         @@           @@  @        @@@    
+                         @@            @@@        @  @@   
+                         @@      @     @@@       @    @@  
+                         @@     @       @       @      @@ 
+                       @@@@@@@@@@       @      @@@    @@@@
+
+                             Gate Netlist Comparator
+
+                   Alliance CAD System 5.0,            lvx 1.5
+                   Copyright (c) 1992-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+
+
+***** Loading adac_chip_ex (al)...
+
+***** Loading adac_chip (vst)...
+
+
+***** Compare Terminals ..............
+***** O.K.	(0 sec)
+
+***** Compare Instances ..........
+***** O.K.	(0 sec)
+
+***** Compare Connections ............
+***** O.K.	(0 sec)
+
+===== Terminals .......... 16    
+===== Instances .......... 17    
+===== Connectors ......... 137   
+
+
+***** Netlists are Identical. *****	(0 sec)
+
+
+                                      @@@@            
+                                     @   @@           
+                                    @@    @@          
+                          @@@@  @@@ @@@   @@ @@@@@ @@@
+                           @@    @   @   @@   @@    @ 
+                            @@  @        @     @@   @ 
+                             @@@        @      @@  @  
+                             @@@       @        @@ @  
+                            @  @@     @    @    @@@   
+                           @    @@   @@@@@@      @@   
+                          @@@  @@@@ @@@@@@@  @@  @    
+                                             @@  @    
+                                              @@@     
+
+                              MBK Format Translator
+
+                   Alliance CAD System 5.0,            x2y 1.4
+                   Copyright (c) 1990-2020,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+	--> Conversion of adac_core(vst) to adac_core(al)
+	--> File format translation's done !
+Warning 3 : signal `core.not_a 1` never used
+
+             @        @@@@ @     @                            @@@@@@@@@@ 
+             @       @    @@    @@@                           @   @@   @ 
+            @@@     @@     @     @                           @    @@    @
+            @@@     @@@              @@@ @@ @@@   @@@  @@@@       @@     
+           @  @@     @@@@     @@@@    @@@ @@  @@   @@    @@       @@     
+           @  @@       @@@@     @@    @@  @@  @@   @@    @@       @@     
+          @    @@        @@@    @@    @@  @@  @@   @@    @@       @@     
+          @@@@@@@   @      @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@     @@   @@    @@  @@  @@   @@    @@       @@     
+         @      @@  @@@    @    @@    @@  @@  @@   @@   @@@       @@     
+       @@@@    @@@@ @  @@@@   @@@@@@ @@@@ @@@ @@@   @@@@  @@    @@@@@@   
+
+                                A SIMUlation Tool
+
+                 Alliance CAD System 5.0,          asimut v3.02
+                 Copyright (c) 1991...1999-2020, ASIM/LIP6/UPMC
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	Paris, France, Europe, Earth, Solar system, Milky Way, ...
+initializing ...
+searching `adac_chip_ex` ...
+compiling `adac_chip_ex` (Structural) ...
+
+flattening the root figure ...
+
+searching `pi_sp` ...
+BEH : Compiling `pi_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `pck_sp` ...
+BEH : Compiling `pck_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `po_sp` ...
+BEH : Compiling `po_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `pvsseck_sp` ...
+BEH : Compiling `pvsseck_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `pvssick_sp` ...
+BEH : Compiling `pvssick_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `pvddeck_sp` ...
+BEH : Compiling `pvddeck_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `pvddick_sp` ...
+BEH : Compiling `pvddick_sp.vbe` (Behaviour) ...
+making GEX ...
+
+searching `buf_x8` ...
+BEH : Compiling `buf_x8.vbe` (Behaviour) ...
+making GEX ...
+
+searching `buf_x2` ...
+BEH : Compiling `buf_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa22_x2` ...
+BEH : Compiling `oa22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na3_x1` ...
+BEH : Compiling `na3_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o3_x2` ...
+BEH : Compiling `o3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `noa22_x1` ...
+BEH : Compiling `noa22_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `a3_x2` ...
+BEH : Compiling `a3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `sff1_x4` ...
+BEH : Compiling `sff1_x4.vbe` (Behaviour) ...
+making GEX ...
+
+searching `na2_x1` ...
+BEH : Compiling `na2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2ao222_x2` ...
+BEH : Compiling `oa2ao222_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `mx3_x2` ...
+BEH : Compiling `mx3_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `oa2a22_x2` ...
+BEH : Compiling `oa2a22_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `no2_x1` ...
+BEH : Compiling `no2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `xr2_x1` ...
+BEH : Compiling `xr2_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `inv_x4` ...
+BEH : Compiling `inv_x4.vbe` (Behaviour) ...
+making GEX ...
+
+searching `o2_x2` ...
+BEH : Compiling `o2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `inv_x2` ...
+BEH : Compiling `inv_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching `an12_x1` ...
+BEH : Compiling `an12_x1.vbe` (Behaviour) ...
+making GEX ...
+
+searching `a2_x2` ...
+BEH : Compiling `a2_x2.vbe` (Behaviour) ...
+making GEX ...
+
+searching pattern file : `adac_com_atraso_13000` ...
+restoring ...
+
+linking ...
+executing ...
+###----- processing pattern 0 : 0 ps -----###
+###----- processing pattern 1 : 13000 ps -----###
+###----- processing pattern 2 : 26000 ps -----###
+###----- processing pattern 3 : 39000 ps -----###
+###----- processing pattern 4 : 52000 ps -----###
+###----- processing pattern 5 : 65000 ps -----###
+###----- processing pattern 6 : 78000 ps -----###
+###----- processing pattern 7 : 91000 ps -----###
+###----- processing pattern 8 : 104000 ps -----###
+###----- processing pattern 9 : 117000 ps -----###
+###----- processing pattern 10 : 130000 ps -----###
+###----- processing pattern 11 : 143000 ps -----###
+###----- processing pattern 12 : 156000 ps -----###
+###----- processing pattern 13 : 169000 ps -----###
+###----- processing pattern 14 : 182000 ps -----###
+###----- processing pattern 15 : 195000 ps -----###
+###----- processing pattern 16 : 208000 ps -----###
+###----- processing pattern 17 : 221000 ps -----###
+###----- processing pattern 18 : 234000 ps -----###
+###----- processing pattern 19 : 247000 ps -----###
+###----- processing pattern 20 : 260000 ps -----###
+###----- processing pattern 21 : 273000 ps -----###
+###----- processing pattern 22 : 286000 ps -----###
+###----- processing pattern 23 : 299000 ps -----###
+###----- processing pattern 24 : 312000 ps -----###
+###----- processing pattern 25 : 325000 ps -----###
+###----- processing pattern 26 : 338000 ps -----###
+###----- processing pattern 27 : 351000 ps -----###
+###----- processing pattern 28 : 364000 ps -----###
+###----- processing pattern 29 : 377000 ps -----###
+###----- processing pattern 30 : 390000 ps -----###
+###----- processing pattern 31 : 403000 ps -----###
+###----- processing pattern 32 : 416000 ps -----###
+###----- processing pattern 33 : 429000 ps -----###
+###----- processing pattern 34 : 442000 ps -----###
+###----- processing pattern 35 : 455000 ps -----###
+###----- processing pattern 36 : 468000 ps -----###
+###----- processing pattern 37 : 481000 ps -----###
+###----- processing pattern 38 : 494000 ps -----###
+###----- processing pattern 39 : 507000 ps -----###
+###----- processing pattern 40 : 520000 ps -----###
+###----- processing pattern 41 : 533000 ps -----###
+###----- processing pattern 42 : 546000 ps -----###
+###----- processing pattern 43 : 559000 ps -----###
+###----- processing pattern 44 : 572000 ps -----###
+###----- processing pattern 45 : 585000 ps -----###
+###----- processing pattern 46 : 598000 ps -----###
+###----- processing pattern 47 : 611000 ps -----###
+###----- processing pattern 48 : 624000 ps -----###
+###----- processing pattern 49 : 637000 ps -----###
+###----- processing pattern 50 : 650000 ps -----###
+###----- processing pattern 51 : 663000 ps -----###
+###----- processing pattern 52 : 676000 ps -----###
+###----- processing pattern 53 : 689000 ps -----###
+###----- processing pattern 54 : 702000 ps -----###
+###----- processing pattern 55 : 715000 ps -----###
+###----- processing pattern 56 : 728000 ps -----###
+###----- processing pattern 57 : 741000 ps -----###
+###----- processing pattern 58 : 754000 ps -----###
+###----- processing pattern 59 : 767000 ps -----###
+###----- processing pattern 60 : 780000 ps -----###
+###----- processing pattern 61 : 793000 ps -----###
+###----- processing pattern 62 : 806000 ps -----###
+###----- processing pattern 63 : 819000 ps -----###
+###----- processing pattern 64 : 832000 ps -----###
+###----- processing pattern 65 : 845000 ps -----###
+###----- processing pattern 66 : 858000 ps -----###
+###----- processing pattern 67 : 871000 ps -----###
+###----- processing pattern 68 : 884000 ps -----###
+###----- processing pattern 69 : 897000 ps -----###
+###----- processing pattern 70 : 910000 ps -----###
+###----- processing pattern 71 : 923000 ps -----###
+###----- processing pattern 72 : 936000 ps -----###
+###----- processing pattern 73 : 949000 ps -----###
+###----- processing pattern 74 : 962000 ps -----###
+###----- processing pattern 75 : 975000 ps -----###
+###----- processing pattern 76 : 988000 ps -----###
+###----- processing pattern 77 : 1001000 ps -----###
+###----- processing pattern 78 : 1014000 ps -----###
+###----- processing pattern 79 : 1027000 ps -----###
+###----- processing pattern 80 : 1040000 ps -----###
+###----- processing pattern 81 : 1053000 ps -----###
+###----- processing pattern 82 : 1066000 ps -----###
+###----- processing pattern 83 : 1079000 ps -----###
+###----- processing pattern 84 : 1092000 ps -----###
+###----- processing pattern 85 : 1105000 ps -----###
+###----- processing pattern 86 : 1118000 ps -----###
+###----- processing pattern 87 : 1131000 ps -----###
+###----- processing pattern 88 : 1144000 ps -----###
+###----- processing pattern 89 : 1157000 ps -----###
+###----- processing pattern 90 : 1170000 ps -----###
+###----- processing pattern 91 : 1183000 ps -----###
+###----- processing pattern 92 : 1196000 ps -----###
+###----- processing pattern 93 : 1209000 ps -----###
+###----- processing pattern 94 : 1222000 ps -----###
+###----- processing pattern 95 : 1235000 ps -----###
+###----- processing pattern 96 : 1248000 ps -----###
+###----- processing pattern 97 : 1261000 ps -----###
+###----- processing pattern 98 : 1274000 ps -----###
+###----- processing pattern 99 : 1287000 ps -----###
+###----- processing pattern 100 : 1300000 ps -----###
+###----- processing pattern 101 : 1313000 ps -----###
+###----- processing pattern 102 : 1326000 ps -----###
+###----- processing pattern 103 : 1339000 ps -----###
+###----- processing pattern 104 : 1352000 ps -----###
+###----- processing pattern 105 : 1365000 ps -----###
+###----- processing pattern 106 : 1378000 ps -----###
+###----- processing pattern 107 : 1391000 ps -----###
+###----- processing pattern 108 : 1404000 ps -----###
+###----- processing pattern 109 : 1417000 ps -----###
+###----- processing pattern 110 : 1430000 ps -----###
+###----- processing pattern 111 : 1443000 ps -----###
+###----- processing pattern 112 : 1456000 ps -----###
+###----- processing pattern 113 : 1469000 ps -----###
+###----- processing pattern 114 : 1482000 ps -----###
+###----- processing pattern 115 : 1495000 ps -----###
+###----- processing pattern 116 : 1508000 ps -----###
+###----- processing pattern 117 : 1521000 ps -----###
+###----- processing pattern 118 : 1534000 ps -----###
+###----- processing pattern 119 : 1547000 ps -----###
+###----- processing pattern 120 : 1560000 ps -----###
+###----- processing pattern 121 : 1573000 ps -----###
+###----- processing pattern 122 : 1586000 ps -----###
+###----- processing pattern 123 : 1599000 ps -----###
+###----- processing pattern 124 : 1612000 ps -----###
+###----- processing pattern 125 : 1625000 ps -----###
+###----- processing pattern 126 : 1638000 ps -----###
+###----- processing pattern 127 : 1651000 ps -----###
+###----- processing pattern 128 : 1664000 ps -----###
+###----- processing pattern 129 : 1677000 ps -----###
+###----- processing pattern 130 : 1690000 ps -----###
+###----- processing pattern 131 : 1703000 ps -----###
+###----- processing pattern 132 : 1716000 ps -----###
+###----- processing pattern 133 : 1729000 ps -----###
+###----- processing pattern 134 : 1742000 ps -----###
+###----- processing pattern 135 : 1755000 ps -----###
+###----- processing pattern 136 : 1768000 ps -----###
+###----- processing pattern 137 : 1781000 ps -----###
+###----- processing pattern 138 : 1794000 ps -----###
+###----- processing pattern 139 : 1807000 ps -----###
+###----- processing pattern 140 : 1820000 ps -----###
+###----- processing pattern 141 : 1833000 ps -----###
+###----- processing pattern 142 : 1846000 ps -----###
+###----- processing pattern 143 : 1859000 ps -----###
+###----- processing pattern 144 : 1872000 ps -----###
+###----- processing pattern 145 : 1885000 ps -----###
+###----- processing pattern 146 : 1898000 ps -----###
+###----- processing pattern 147 : 1911000 ps -----###
+###----- processing pattern 148 : 1924000 ps -----###
+###----- processing pattern 149 : 1937000 ps -----###
+###----- processing pattern 150 : 1950000 ps -----###
+###----- processing pattern 151 : 1963000 ps -----###
+###----- processing pattern 152 : 1976000 ps -----###
+###----- processing pattern 153 : 1989000 ps -----###
+###----- processing pattern 154 : 2002000 ps -----###
+###----- processing pattern 155 : 2015000 ps -----###
+###----- processing pattern 156 : 2028000 ps -----###
+###----- processing pattern 157 : 2041000 ps -----###
+###----- processing pattern 158 : 2054000 ps -----###
+###----- processing pattern 159 : 2067000 ps -----###
+###----- processing pattern 160 : 2080000 ps -----###
+###----- processing pattern 161 : 2093000 ps -----###
+###----- processing pattern 162 : 2106000 ps -----###
+###----- processing pattern 163 : 2119000 ps -----###
+###----- processing pattern 164 : 2132000 ps -----###
+###----- processing pattern 165 : 2145000 ps -----###
+###----- processing pattern 166 : 2158000 ps -----###
+###----- processing pattern 167 : 2171000 ps -----###
+###----- processing pattern 168 : 2184000 ps -----###
+###----- processing pattern 169 : 2197000 ps -----###
+###----- processing pattern 170 : 2210000 ps -----###
+###----- processing pattern 171 : 2223000 ps -----###
+###----- processing pattern 172 : 2236000 ps -----###
+###----- processing pattern 173 : 2249000 ps -----###
+###----- processing pattern 174 : 2262000 ps -----###
+###----- processing pattern 175 : 2275000 ps -----###
+###----- processing pattern 176 : 2288000 ps -----###
+###----- processing pattern 177 : 2301000 ps -----###
+###----- processing pattern 178 : 2314000 ps -----###
+###----- processing pattern 179 : 2327000 ps -----###
+###----- processing pattern 180 : 2340000 ps -----###
+###----- processing pattern 181 : 2353000 ps -----###
+###----- processing pattern 182 : 2366000 ps -----###
+###----- processing pattern 183 : 2379000 ps -----###
+###----- processing pattern 184 : 2392000 ps -----###
+###----- processing pattern 185 : 2405000 ps -----###
+###----- processing pattern 186 : 2418000 ps -----###
+###----- processing pattern 187 : 2431000 ps -----###
+###----- processing pattern 188 : 2444000 ps -----###
+###----- processing pattern 189 : 2457000 ps -----###
+###----- processing pattern 190 : 2470000 ps -----###
+###----- processing pattern 191 : 2483000 ps -----###
+###----- processing pattern 192 : 2496000 ps -----###
+###----- processing pattern 193 : 2509000 ps -----###
+###----- processing pattern 194 : 2522000 ps -----###
+###----- processing pattern 195 : 2535000 ps -----###
+###----- processing pattern 196 : 2548000 ps -----###
+###----- processing pattern 197 : 2561000 ps -----###
+###----- processing pattern 198 : 2574000 ps -----###
+###----- processing pattern 199 : 2587000 ps -----###
+###----- processing pattern 200 : 2600000 ps -----###
+###----- processing pattern 201 : 2613000 ps -----###
+###----- processing pattern 202 : 2626000 ps -----###
+###----- processing pattern 203 : 2639000 ps -----###
+###----- processing pattern 204 : 2652000 ps -----###
+###----- processing pattern 205 : 2665000 ps -----###
+###----- processing pattern 206 : 2678000 ps -----###
+###----- processing pattern 207 : 2691000 ps -----###
+###----- processing pattern 208 : 2704000 ps -----###
+###----- processing pattern 209 : 2717000 ps -----###
+###----- processing pattern 210 : 2730000 ps -----###
+###----- processing pattern 211 : 2743000 ps -----###
+###----- processing pattern 212 : 2756000 ps -----###
+###----- processing pattern 213 : 2769000 ps -----###
+###----- processing pattern 214 : 2782000 ps -----###
+###----- processing pattern 215 : 2795000 ps -----###
+###----- processing pattern 216 : 2808000 ps -----###
+###----- processing pattern 217 : 2821000 ps -----###
+###----- processing pattern 218 : 2834000 ps -----###
+###----- processing pattern 219 : 2847000 ps -----###
+###----- processing pattern 220 : 2860000 ps -----###
+###----- processing pattern 221 : 2873000 ps -----###
+###----- processing pattern 222 : 2886000 ps -----###
+###----- processing pattern 223 : 2899000 ps -----###
+###----- processing pattern 224 : 2912000 ps -----###
+###----- processing pattern 225 : 2925000 ps -----###
+###----- processing pattern 226 : 2938000 ps -----###
+###----- processing pattern 227 : 2951000 ps -----###
+###----- processing pattern 228 : 2964000 ps -----###
+###----- processing pattern 229 : 2977000 ps -----###
+###----- processing pattern 230 : 2990000 ps -----###
+###----- processing pattern 231 : 3003000 ps -----###
+###----- processing pattern 232 : 3016000 ps -----###
+###----- processing pattern 233 : 3029000 ps -----###
+###----- processing pattern 234 : 3042000 ps -----###
+###----- processing pattern 235 : 3055000 ps -----###
+###----- processing pattern 236 : 3068000 ps -----###
+###----- processing pattern 237 : 3081000 ps -----###
+###----- processing pattern 238 : 3094000 ps -----###
+###----- processing pattern 239 : 3107000 ps -----###
+###----- processing pattern 240 : 3120000 ps -----###
+###----- processing pattern 241 : 3133000 ps -----###
+###----- processing pattern 242 : 3146000 ps -----###
+###----- processing pattern 243 : 3159000 ps -----###
+###----- processing pattern 244 : 3172000 ps -----###
+###----- processing pattern 245 : 3185000 ps -----###
+###----- processing pattern 246 : 3198000 ps -----###
+###----- processing pattern 247 : 3211000 ps -----###
+###----- processing pattern 248 : 3224000 ps -----###
+###----- processing pattern 249 : 3237000 ps -----###
+###----- processing pattern 250 : 3250000 ps -----###
+###----- processing pattern 251 : 3263000 ps -----###
+###----- processing pattern 252 : 3276000 ps -----###
+###----- processing pattern 253 : 3289000 ps -----###
+###----- processing pattern 254 : 3302000 ps -----###
+###----- processing pattern 255 : 3315000 ps -----###
+Chip ADAC gerado com êxito desde a especificação funcional em C até o nível do layout simbólico, incorporando core sintetizado sobre a biblioteca standard cell SXLIB, posicionado e roteado, conectado ao anel de pads da biblioteca padlib, tudo fazendo uso do pacote acadêmico ALLIANCE, criado pela universidade PARIS VI

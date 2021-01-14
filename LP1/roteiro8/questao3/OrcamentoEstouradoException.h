@@ -1,0 +1,14 @@
+//
+// Created by epitacio on 31/10/17.
+//
+
+#ifndef QUESTAO3_ORCAMENTOESTOURADOEXCEPTION_H
+#define QUESTAO3_ORCAMENTOESTOURADOEXCEPTION_H
+
+
+class OrcamentoEstouradoException {
+
+};
+
+
+#endif //QUESTAO3_ORCAMENTOESTOURADOEXCEPTION_H

@@ -1,0 +1,14 @@
+//
+// Created by epitacio on 31/10/17.
+//
+
+#ifndef QUESTAO3_FUNCIONARIONAOEXISTEEXCEPTION_H
+#define QUESTAO3_FUNCIONARIONAOEXISTEEXCEPTION_H
+
+
+class FuncionarioNaoExisteException {
+
+};
+
+
+#endif //QUESTAO3_FUNCIONARIONAOEXISTEEXCEPTION_H

@@ -1,0 +1,19 @@
+
+.include noc.spi
+
+* INTERF phi phi1 phi2 vdd vss vss1 
+
+X1 20 10 11 40 30 30 noc
+
+V1 20 0 pulse(0V 1.8V 5n 1p 1p 5n 20n)
+
+*R1 20 0 10Meg 
+
+Vdd 40 0 1.8V
+Vss 30 0 0V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.01ns 40ns
+.end

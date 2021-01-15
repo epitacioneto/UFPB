@@ -1,0 +1,25 @@
+
+.include mux2.spi
+.include inversor_1.spi
+
+* INTERF a0 a1 n_s s vdd vss y 
+* INTERF a vdd vss y 
+
+X1 10 11 12 13 40 30 20 mux2
+X2 13 40 30 12 inversor_1
+
+V0 10 0 sine(0 1.8V 70Meg)
+V1 11 0 sine(0 1.8V 40Meg)
+V2 13 0 pulse(-1.8V 1.8V 20n 1p 1p 100n 200n)
+
+
+*R1 20 0 10Meg 
+
+Vdd 40 0 1.8V
+Vss 30 0 -1.8V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.01ns 400ns
+.end

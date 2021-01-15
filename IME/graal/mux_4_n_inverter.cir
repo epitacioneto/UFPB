@@ -1,0 +1,25 @@
+
+.include mux_4_n_inverter.spi
+
+* INTERF d0 d1 d2 d3 s0 s1 vdd vss vss1 y 
+
+X1 10 11 12 13 20 21 40 30 30 50 mux_4_n_inverter
+
+V0 10 0 sine(0 1.8V 40Meg)
+V1 11 0 sine(0 1.8V 70Meg)
+V2 12 0 sine(0 1.8V 100Meg)
+V3 13 0 sine(0 1.8V 120Meg)
+V4 20 0 pulse(-1.8V 1.8V 100n 1p 1p 100n 200n)
+V5 21 0 pulse(-1.8V 1.8V 200n 1p 1p 200n 400n)
+
+
+*R1 20 0 10Meg 
+
+Vdd 40 0 1.8V
+Vss 30 0 -1.8V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.01ns 800ns
+.end

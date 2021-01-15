@@ -1,0 +1,17 @@
+
+.include inversor_eq_teste.spi
+
+* INTERF a vdd vss y
+
+X1 10 20 30 40 inversor_eq_teste
+
+V1 10 30 0v DC
+V2 30 0 0V DC
+V3 20 30 1.8V DC
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+*.tran
+.dc V1 0 1.8 .001
+.end

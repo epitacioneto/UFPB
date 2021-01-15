@@ -1,0 +1,27 @@
+
+.include inversor_1.spi
+.include inversor_2.spi
+.include inversor_3.spi
+.include inversor_4.spi
+.include inversor_5.spi
+*.include inversor_6.spi
+
+* INTERF a vdd vss y
+
+X1 10 20 30 40 inversor_1
+X2 10 20 30 41 inversor_2
+X3 10 20 30 42 inversor_3
+X4 10 20 30 43 inversor_4
+X5 10 20 30 44 inversor_5
+*X6 10 20 30 45 inversor_6
+
+V1 10 30 0v DC
+V2 30 0 0V DC
+V3 20 30 1.8V DC
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+*.tran
+.dc V1 0 1.8 .001
+.end

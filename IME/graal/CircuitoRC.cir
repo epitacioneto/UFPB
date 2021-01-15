@@ -1,0 +1,22 @@
+.include resistor1.spi
+.include resistor2.spi
+.include capacitor1.spi
+.include capacitor2.spi
+
+x1 11 21 resistor1
+x2 10 22 resistor1
+x3 10 23 capacitor1
+x4 10 24 capacitor1
+x5 21 30 capacitor1
+x6 22 30 capacitor2
+x7 23 30 resistor1
+x8 24 30 resistor2
+
+V1 10 30 pulse(0 5 0 1ns 1ns 10ms 20ms)
+
+V21 10 11 0v
+V2 30 0 0v
+
+.tran 0.0001ms 40ms
+
+.end

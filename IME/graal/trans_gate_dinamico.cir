@@ -1,0 +1,19 @@
+
+.include trans_gate.spi
+
+* INTERF a enable vdd vss y 
+
+X1 10 11 40 30 20 trans_gate
+V1 10 0 sine(0 1.8V 1G)
+V2 11 0 pulse(-1.8V 1.8V 2n 1p 1p 10n 20n)
+
+R1 20 0 1Meg 
+
+Vdd 40 0 1.8V
+Vss 30 0 -1.8V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.001ns 40ns
+.end

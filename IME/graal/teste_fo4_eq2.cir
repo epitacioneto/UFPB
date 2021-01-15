@@ -1,0 +1,26 @@
+
+.include inversor_equilibrado.spi
+.include fo4+gordo.spi
+.include fo4_serie_eq.spi
+.include fo4_eq2.spi
+
+* INTERF a vdd vss y
+* INTERF a vdd vss vss1 y
+* INTERF a vdd vss1 vss2 y
+* INTERF a vdd vss1 vss2 y  
+
+X1 10 40 30 20 inversor_equilibrado
+X2 10 40 30 30 21 fo4+gordo
+X3 10 40 30 30 22 fo4_serie_eq
+X4 10 40 30 30 23 fo4_eq2
+
+V1 10 30 pulse(0V 1.8V 2ns 1ps 1ps 4ns 8ns)
+Vdd 40 30 1.8V
+Vss 30 0 0.0V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.001ns 16ns
+
+.end

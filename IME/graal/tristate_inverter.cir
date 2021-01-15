@@ -1,0 +1,23 @@
+
+.include tristate_inverter.spi
+.include inversor_1.spi
+
+* INTERF a enable vdd vss y 
+* INTERF a vdd vss y 
+
+X1 10 11 40 30 20 tristate_inverter
+X2 20 40 30 21 inversor_1
+
+V1 10 0 sine(0 1.8V 100Meg)
+V2 11 0 pulse(-1.8V 1.8V 20n 1p 1p 100n 200n)
+
+*R1 20 0 10Meg 
+
+Vdd 40 0 1.8V
+Vss 30 0 -1.8V
+
+.model tp pmos level = 54
+.model tn nmos level = 54
+
+.tran 0.01ns 400ns
+.end
